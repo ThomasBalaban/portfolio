@@ -1,5 +1,5 @@
 {% import "macros/macros.nunjucks" as macros %}
-<div class="hp-wrapper {{configure.wrapperClass}}" id="hp-wrapper">
+<div class="nj-wrapper {{configure.wrapperClass}}" id="nj-wrapper">
   <div class="container">
 
   </div>

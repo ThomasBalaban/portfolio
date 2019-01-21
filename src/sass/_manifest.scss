@@ -2,13 +2,12 @@
 @import 'mixins';
 @import 'helpers';
 
-.hp-wrapper {
+.nj-wrapper {
     @import 'bootstrap3/bootstrap3';
 }
 
 @import 'core';
 // partials
-@import 'partials/fanshop';
 @import 'partials/featureBlock';
 @import 'partials/headerBlock';
 @import 'partials/headerLine';
@@ -16,6 +15,5 @@
 @import 'partials/moreWays';
 @import 'partials/textBanner';
 @import 'partials/dealSlider';
-@import 'partials/flashsale';
 // overrides
 @import 'tmp';

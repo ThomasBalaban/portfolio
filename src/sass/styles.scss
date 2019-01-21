@@ -14,7 +14,7 @@
     margin: 0 !important;
 }
 
-.hp-wrapper {
+.nj-wrapper {
     padding: 0;
     margin-bottom: 2rem;
     overflow-x: hidden;
@@ -619,7 +619,7 @@
 }
 
 @media ($desktop-large) {
-    .hp-wrapper {
+    .nj-wrapper {
         .container--padded {
             width: 80%;
             margin: auto;
@@ -628,7 +628,7 @@
 }
 
 @media($mobile) {
-    .hp-wrapper {
+    .nj-wrapper {
         margin-top: 1rem;
 
         [class*=col]+[class*=col] {
