@@ -19,10 +19,6 @@
 ```sh
 // clone repo
 $ git clone {{repo name}}
-// pull build process submodule
-$ cd build_hp
-$ git submodule update --init --recursive
-$ cd ..
 // install dependencies from build process submodule
 $ npm i
 ```
