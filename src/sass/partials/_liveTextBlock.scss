@@ -1,0 +1,99 @@
+.live-text-block {
+    box-sizing: border-box;
+    display: block;
+    padding: 1rem;
+    width: 100%;
+
+    @media($mobile) {
+        padding: 0;
+    }
+
+    .content {
+        $copy-width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+        width: 100%;
+
+        @media($mobile) {
+            display: block;
+        }
+
+        &.right {
+            flex-direction: row-reverse;
+        }
+
+        .image {
+            width: 100% - $copy-width;
+
+            @media($mobile) {
+                width: 100%;
+            }
+        }
+
+        .copy {
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 5%;
+            width: $copy-width;
+
+            @media($mobile) {
+                display: block;
+                padding: 0;
+                width: 100%;
+            }
+
+            .text-box {
+                text-align: left;
+
+                @media($mobile) {
+                    text-align: center;
+                }
+
+                &__text {
+                    text-align: left;
+
+                    @media($mobile) {
+                        font-size: 1.3rem;
+                        text-align: center;
+
+                        &--heading {
+                            font-size: 2.3rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .btn {
+            display: inline-block;
+        }
+
+        &.full {
+            display: block;
+
+            .image {
+                width: 100%;
+            }
+
+            .copy {
+                position: absolute;
+                width: auto;
+                z-index: 3;
+
+                .text-box {
+                    &__text {
+                        background: transparent;
+                    }
+                }
+
+                @media($mobile) {
+                    position: relative;
+                }
+            }
+        }
+    }
+}

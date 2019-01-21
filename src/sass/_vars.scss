@@ -1,0 +1,68 @@
+// Google Fonts
+$fontLato: 'Lato',
+sans-serif;
+$fontRoboto: 'Roboto',
+sans-serif;
+$fontRobotoCond: 'Roboto Condensed',
+sans-serif;
+$fontRobotoSlab: 'Roboto Slab',
+serif;
+$fontTeko: 'Teko',
+sans-serif;
+// DSG Fonts
+$fontDSGBlack: 'DSG Sans Black',
+sans-serif;
+$fontDSGBold: 'DSG Sans Bold',
+sans-serif;
+$fontDSGMedium: 'DSG Sans Medium',
+sans-serif;
+$fontDSGOutline: 'DSG Sans Outline',
+sans-serif;
+$fontDSGThin: 'DSG Sans Thin',
+sans-serif;
+$fontDSGUltra: 'DSG Sans Ultra',
+sans-serif;
+// DIN Fonts
+$fontDINBlack: 'DIN Black',
+sans-serif;
+$fontDINBold: 'DIN Bold',
+sans-serif;
+$fontDINLight: 'DIN Light',
+sans-serif;
+$fontDINMedium: 'DIN Medium',
+sans-serif;
+// Media Queries
+$desktop-xlarge: "min-width: 2000px";
+$desktop-large: "min-width: 1280px";
+$desktop: "min-width: 992px";
+$mobile: "max-width: 991px";
+$tablet: "min-width: 700px";
+$hover: "not all and (hover: none)";
+$ie: "all and (-ms-high-contrast: none), (-ms-high-contrast: active)";
+// DSG Colors
+$dsgGreen: #006554;
+$dsgHolidayGreen: #1d4831;
+$dsgLightGray: #e6e6e6;
+$dsgUltraLightGray: #f8f8f8;
+$dsgDarkGray: #333333;
+$dsgBlue: #5C79AC;
+$dsgBurgundy: #8B000E;
+$dsgSummerBlue: #1b3a61;
+$dsgWhite: white;
+
+// Colors
+$white: rgba(255, 255, 255, 1);
+
+$border-colors: ('white', 'red', 'green', 'blue', 'grey');
+
+$column-layout-max: 12;
+$column-gap: .5vw;
+
+@mixin column-width($columns, $padding) {
+	width: calc(#{($columns / $column-layout-max) * 100%} - (#{$padding * 2}));
+}
+
+@mixin column-margins($columns) {
+	margin-left: (($column-layout-max - $columns) / $column-layout-max) * 50%;
+	margin-right: (($column-layout-max - $columns) / $column-layout-max) * 50%;
+}

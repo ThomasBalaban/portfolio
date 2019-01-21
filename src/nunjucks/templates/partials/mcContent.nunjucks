@@ -1,0 +1,6 @@
+{% import "macros/macros.nunjucks" as macros %}
+<div class="hp-wrapper {{configure.wrapperClass}}" id="hp-wrapper">
+  <div class="container">
+
+  </div>
+</div>

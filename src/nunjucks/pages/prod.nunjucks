@@ -1,0 +1,10 @@
+<!-- prod.nunjucks-->
+{% extends "prodTemplate.nunjucks" %}
+
+{% import 'globals.nunjucks' as globals %}
+
+{% block mainContent %}
+  <!-- BEGIN Management Center HTML -->
+  {% include "partials/mcContent.nunjucks" %}
+  <!-- END Mangement Center HTML -->
+{% endblock %}

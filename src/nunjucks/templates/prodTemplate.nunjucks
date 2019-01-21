@@ -1,0 +1,21 @@
+<!-- prodTemplate.nunjucks-->
+<html>
+
+<head>
+<style>
+<!-- inject:./tmp/styles.css -->
+<!-- endinject -->
+</style>
+
+</head>
+
+<body>
+{% block mainContent %}{% endblock %}
+</body>
+
+<script>
+<!-- inject:./tmp/bundle.js -->
+<!-- endinject -->
+</script>
+
+</html>

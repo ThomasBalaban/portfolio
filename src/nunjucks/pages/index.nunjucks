@@ -1,0 +1,16 @@
+<!-- index.nunjucks-->
+{% extends "homepageTemplate.nunjucks" %}
+
+{% import 'globals.nunjucks' as globals %}
+
+{% block header %}
+  {% include "partials/header.nunjucks" %}
+{% endblock header %}
+
+{% block mainContent %}
+  {% include "partials/mcContent.nunjucks" %}
+{% endblock %}
+
+{% block footer %}
+  {% include "partials/footer.nunjucks" %}
+{% endblock footer %}

@@ -1,0 +1,128 @@
+#moreWaysToSave {
+	text-align: center;
+	position: relative;
+	margin-bottom: 1rem;
+	.moreWays {
+		&_mobile-copy {
+			border-top: 1px solid #333;
+			border-bottom: 1px solid #333;
+			padding: 20px 0;
+			&--top {
+				font-family: $fontDSGBlack;
+				font-size: 8vw;
+				text-align: center;
+				color: #333;
+			}
+			&--bottom {
+				font-size: 3vw;
+				font-family: $fontDINMedium;
+				text-align: center;
+				color: #333;
+			}
+			&--button {
+				padding: 5px 0;
+				.fa {
+					font-size: 5vw;
+					color: grey !important;
+				}
+			}
+		}
+		&Items {
+			position: absolute;
+			top: 100%;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 90%;
+			background-color: rgba(white, .9);
+			display: flex;
+			flex-direction: column;
+			z-index: 10000;
+			padding-bottom: 20px;
+			.moreWaysItem {
+				width: 100%;
+				border-bottom: solid 1px #333;
+				padding: 20px 0;
+				&_top-text {
+					font-family: $fontDSGBold;
+					font-size: calc(3.5vw + 10px);
+					text-align: center;
+					text-transform: uppercase;
+					color: #333;
+				}
+				&_bottom-text {
+					font-family: $fontDINMedium;
+					font-size: calc(1.5vw + 10px);
+					text-align: center;
+					color: #333;
+				}
+			}
+			@media($desktop) {
+				position: relative;
+				left: 0;
+				transform: none;
+				left: unset;
+				top: unset;
+				width: 100%;
+				flex-direction: row;
+				justify-content: center;
+				margin: 20px auto;
+				z-index: 1;
+				padding-bottom: 0;
+				.moreWaysItem {
+					padding: 0;
+					width: 50%;
+					border: none;
+					&:first-child {
+						border-right: solid 1px #333;
+					}
+					&:last-child {
+						display: none;
+					}
+					&_top-text {
+						font-size: 30px;
+						color: #333;
+					}
+					&_bottom-text {
+						font-size: 16px;
+						color: #333;
+					}
+				}
+				@media (min-width: 1200px) {
+					.moreWaysItem {
+						width: 33%;
+						&:last-child {
+							display: block;
+						}
+						&:not(:last-child) {
+							border-right: solid 1px #333;
+						}
+					}
+				}
+			}
+		}
+	}
+	@media ($mobile) {
+		&.moreWays--open {
+			.fa-plus-circle {
+				display: none;
+			}
+			.fa-minus-circle {
+				display: block;
+			}
+			.moreWaysItems {
+				display: flex;
+			}
+		}
+		&.moreWays--closed {
+			.fa-plus-circle {
+				display: block;
+			}
+			.fa-minus-circle {
+				display: none;
+			}
+			.moreWaysItems {
+				display: none;
+			}
+		}
+	}
+}

@@ -1,0 +1,33 @@
+,
+    "disruptors": [{
+      "link": "/s/dicks-cash-promo-details",
+      "title": "Earn $20 Dick's Cash On $100+ Purchases | Some Exclusions Apply. Click for Details.",
+      "id": "DicksCashDisruptor",
+      "classes": "",
+      "picture": {
+        "srcMobile": "",
+        "src": ""
+      },
+      "mobileText": [{
+          "copy": "Earn $20 Dick's Cash on $100+ Purchases<i class=\"fa fa-angle-right hidden-xs\" style=\"margin-left: 10px\"></i>",
+          "classes": "text-box__text--heading text-box__text--medium-large"
+        },
+        {
+          "copy": "Some Exclusions Apply. <span class=\"underline\">Details</span>",
+          "classes": "text-box__text--medium"
+        }
+      ]
+    }]
+
+
+    "footwearCoupon": {
+      "hover": false,
+      "link": "/c/footwear",
+      "id": "footwearCouponBanner",
+      "title": "More Shoes. More Savings. | $10 Off $50, $20 Off $100, $30 Off $150 | Select Styles. Exclusions Apply.",
+      "picture": {
+        "gif": true,
+        "src": "18AugWk2_Fri_FootwearCoupon",
+        "srcMobile": "18AugWk2_Fri_FootwearCouponMob"
+      }
+    },

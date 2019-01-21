@@ -1,0 +1,58 @@
+.hp-wrapper .scp-row.header-line {
+    margin-top: 3rem;
+
+    @media($mobile) {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        &:first-child {
+            display: block;
+            font-family: $fontDINLight;
+        }
+
+        &:last-child {
+            padding: 0 2vw;
+
+            @media($mobile) {
+                padding: 0 2rem;
+            }
+        }
+    }
+
+    .text-box {
+        &__text {
+            background: white;
+            padding: 0 3rem;
+
+            &--large {
+                font-size: 3rem !important;
+
+                @media($mobile) {
+                    font-size: 2rem !important;
+                }
+            }
+
+            &--x-large {
+                font-family: $fontDSGBold !important;
+                font-size: 4rem !important;
+
+                b {
+                    font-family: $fontDSGBlack !important;
+                }
+
+                @media($mobile) {
+                    font-size: 3rem !important;
+                }
+            }
+        }
+    }
+
+    &.shortened {
+        @media($desktop) {
+            margin: 0 auto;
+            max-width: 70%;
+        }
+    }
+}

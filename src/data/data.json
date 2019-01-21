@@ -1,0 +1,10 @@
+{
+	"configure": {
+		"wrapperClass": "friday",
+		"debug": false
+
+	},
+	"data": {
+
+	}
+}

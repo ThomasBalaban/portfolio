@@ -1,0 +1,3 @@
+{% set imageUrl = '//dks.scene7.com/is/image/dksfed/' %}
+{% set gifUrl = '//dks.scene7.com/is/content/dksfed/' %}
+{% set maxColumnWidth = '12' %}

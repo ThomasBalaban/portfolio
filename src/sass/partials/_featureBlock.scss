@@ -1,0 +1,104 @@
+.hp-wrapper {
+    .feature-block {
+        box-sizing: border-box;
+        position: relative;
+
+        .hover-item {
+            .details {
+                bottom: 0;
+                box-shadow: -1px -1px 6px rgba($dsgUltraLightGray, .2);
+                height: 7rem;
+                padding: 0;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 100%;
+
+                @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+                    height: auto;
+                }
+
+                .inner {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+
+                    .text-box {
+                        &__text {
+                            display: inline-block;
+                            margin: auto;
+                            position: relative;
+                        }
+                    }
+                }
+            }
+        }
+
+        &:hover {
+            @media($mobile) {
+                .details {
+                    opacity: 0;
+                }
+            }
+        }
+
+        &__white-border {
+            img {
+                border: solid 5px white;
+            }
+        }
+    }
+}
+
+// #featuredDeals {
+//     display: flex;
+//     flex-direction: row;
+//     overflow: auto;
+//     position: relative;
+//     background-size: cover;
+//     .feature-block {
+//         .text-box {
+//             &__text {
+//                 background: none;
+//             }
+//         }
+//     }
+//     @media($desktop) {
+//         // div {
+//         //     flex: 1;
+//         // }
+//         .featured-column {
+//             display: flex;
+//             flex-direction: row;
+//             flex-wrap: wrap;
+//             justify-content: space-between;
+//             .feature-block.col-sm-6 {
+//                 width: calc(50% - 10px);
+//             }
+//         }
+//         .feature-block {
+//             padding: 5px;
+//             &:not(:first-child) {
+//                 margin-left: 5px;
+//             }
+//             &:not(:last-child) {
+//                 margin-right: 5px;
+//             }
+//             .hover-item {
+//                 .text-box__text {
+//                     &--small {
+//                         padding-left: 5px;
+//                         padding-right: 5px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+//     @media($mobile) {
+//         flex-wrap: wrap;
+//         margin-bottom: 0;
+//         .col-sm-6 {
+//             width: 49.5% !important;
+//         }
+//     }
+// }
