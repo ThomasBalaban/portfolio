@@ -1,6 +1,14 @@
 {% import "macros/macros.nunjucks" as macros %}
+{% import "components/series.nunjucks" as series %}
+{% import "components/pids.nunjucks" as pids %}
+
+ 
 <div class="nj-wrapper {{configure.wrapperClass}}" id="nj-wrapper">
   <div class="container">
 
+    {{ series.heroblock(data, 0) }} 
+
+testttt
+        {{ pids.blocks(data, 0) }}
   </div>
 </div>

@@ -1,10 +1,154 @@
 {
-	"configure": {
-		"wrapperClass": "friday",
-		"debug": false
-
-	},
 	"data": {
+		"sectionsActive": true,
+		"section": [
+			{
+				"title": "Wilson A2K",
+				"regTrademark": true,
+				"heroImage": "something.png",
+				"imageSide": "left",
+				"list": [
+					{
+						"listitem": [
+							"lorem lorem lorem1",
+							"lorem lorem lorem2",
+							"lorem lorem lorem3"
+						]
+					}
+				],
+				"paragraph": "Extra lorem ipsums and figure out how to interpolate the sup's"
+			},
 
+			{
+				"title": "Wilson A2Knum2kits",
+				"regTrademark": true,
+				"heroImage": "something2.png",
+				"imageSide": "right",
+				"list": [
+					{
+						"listitem": [
+							"lorem lorem lorem1",
+							"lorem lorem lorem2"
+						]
+					}
+				],
+				"paragraph": "Extra22222 lorem ipsums and figure out how to interpolate the sup's"
+			}
+		],
+
+
+		"pidsActive": true,
+		"pids": [
+			{
+				"section1": [
+					{
+						"pid1": [
+							{
+								"image": "something.png\" A2K stuff stuff stuff sutff stuff stuff stuff",
+								"title": "Wilson 11.75",
+								"price": "$0.00",
+								"url": "/s/thisisprobably a link",
+								"shopAll": "Shop All Wilson A2K",
+								"shopAllLink": "/s/evenmorelinksmannn"	
+							}
+						],
+						"pid2": [
+							{
+								"image": "something.png\" A2K stuff stuff stuff sutff stuff stuff stuff",
+								"title": "Wilson 11.75",
+								"price": "$0.00",
+								"url": "/s/thisisprobably a link",
+								"shopAll": "Shop All Wilson A2K",
+								"shopAllLink": "/s/evenmorelinksmannn"	
+							}
+						],
+						"pid3": [
+							{
+								"image": "something.png\" A2K stuff stuff stuff sutff stuff stuff stuff",
+								"title": "Wilson 11.75",
+								"price": "$0.00",
+								"url": "/s/thisisprobably a link",
+								"shopAll": "Shop All Wilson A2K",
+								"shopAllLink": "/s/evenmorelinksmannn"	
+							}
+						],
+						"pid4": [
+							{
+								"image": "something.png\" A2K stuff stuff stuff sutff stuff stuff stuff",
+								"title": "Wilson 11.75",
+								"price": "$0.00",
+								"url": "/s/thisisprobably a link",
+								"shopAll": "Shop All Wilson A2K",
+								"shopAllLink": "/s/evenmorelinksmannn"	
+							}
+						],
+						"pid5": [
+							{
+								"image": "something.png\" A2K stuff stuff stuff sutff stuff stuff stuff",
+								"title": "Wilson 11.75",
+								"price": "$0.00",
+								"url": "/s/thisisprobably a link",
+								"shopAll": "Shop All Wilson A2K",
+								"shopAllLink": "/s/evenmorelinksmannn"	
+							}
+						]
+					}
+				],
+				"section2": [
+					{
+						"pid1": [
+							{
+								"image": "something.png\" A2K stu22222222ff stuff stuff sutff stuff stuff stuff",
+								"title": "Wil22222son 11.75",
+								"price": "$22220.00",
+								"url": "/s/thisisprobably a link",
+								"shopAll": "Shop Al22222l Wilson A2K",
+								"shopAllLink": "/s/evenmorelinksmannn"	
+							}
+						],
+						"pid2": [
+							{
+								"image": "something.png\" A2K stuff stuff stuff sutff stuff stuff stuff",
+								"title": "Wilson 11.75",
+								"price": "$0.00",
+								"url": "/s/thisisprobably a link",
+								"shopAll": "Shop All Wilson A2K",
+								"shopAllLink": "/s/evenmorelinksmannn"	
+							}
+						],
+						"pid3": [
+							{
+								"image": "something.png\" A2K stuff stuff stuff sutff stuff stuff stuff",
+								"title": "Wilson 11.75",
+								"price": "$0.00",
+								"url": "/s/thisisprobably a link",
+								"shopAll": "Shop All Wilson A2K",
+								"shopAllLink": "/s/evenmorelinksmannn"	
+							}
+						],
+						"pid4": [
+							{
+								"image": "something.png\" A2K stuff stuff stuff sutff stuff stuff stuff",
+								"title": "Wilson 11.75",
+								"price": "$0.00",
+								"url": "/s/thisisprobably a link",
+								"shopAll": "Shop All Wilson A2K",
+								"shopAllLink": "/s/evenmorelinksmannn"	
+							}
+						],
+						"pid5": [
+							{
+								"image": "something.png\" A2K stuff stuff stuff sutff stuff stuff stuff",
+								"title": "Wilson 11.75",
+								"price": "$0.00",
+								"url": "/s/thisisprobably a link",
+								"shopAll": "Shop All Wilson A2K",
+								"shopAllLink": "/s/evenmorelinksmannn"	
+							}
+						]
+					}
+				]
+			}
+		]
 	}
 }

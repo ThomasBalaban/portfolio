@@ -1,0 +1,6 @@
+{% macro blocks(data, which) %} 
+    hhh
+    {% if data.pidsActive %}
+        hiiii
+    {% endif %}
+{% endmacro %}

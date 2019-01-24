@@ -1,0 +1,19 @@
+{% macro heroblock(data, which) %}
+    {% if data.sectionsActive %}
+        <div class="series flex between {{data.section[which].imageSide}}">
+            <div class="img">
+                <img src="{{data.section[which].heroImage}}" alt="{{data.section[which].title}}"/>
+            </div>
+            <div class="text">
+                <h3>{{data.section[which].title}}</h3>
+                <hr />
+                <ul>
+                    {% for i in data.section[which].list[0].listitem %}
+                        <li>{{i}}</li> 
+                    {% endfor %}
+                </ul>
+                <p>{{data.section[which].paragraph}}</p>
+            </div>
+        </div>
+    {% endif %}
+{% endmacro %}
