@@ -1,6 +1,18 @@
 {% macro blocks(data, which) %} 
-    hhh
     {% if data.pidsActive %}
-        hiiii
-    {% endif %}
+        <div class="pid-section flex between" style="width: 1000px; display: block; background: red;">
+            {% for i in data.pids[0].pid  %}
+                <a href="{{ i.url }}" title="{{ i.title }}" data-em="hp_#_">
+                    <img src="{{ i.image }}" alt="{{ i.title }}" />
+                </a>
+                <a href="{{ i.url }}" title="{{ i.title }}" data-em="hp_#_">
+                    <p>{{ i.title }}</p>
+                </a>
+                <p class="price">{{ i.price }}</p>
+            {% endfor %}
+            <a href="{{data.pids[0].pid[5].shopping[0].shopAllLink}}" title="{{data.pids[0].pid[5].shopping[0].shopAll}}" data-em="hp_#_">{{data.pids[0].pid[5].shopping[0].shopAll}}</a>
+        </div>
+    {% endif %} 
 {% endmacro %}
+
+
