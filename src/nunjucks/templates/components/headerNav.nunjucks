@@ -1,0 +1,14 @@
+<div class="header flex">
+    <img class="mobile" src="//dks.scene7.com/is/image/dksfed/FieldersFinest_Header_M" />
+    <img class="desktop" src="//dks.scene7.com/is/image/dksfed/FieldersFinest_Header_D" />
+    <h2>The Pro Glove Difference</h2>
+    <p>Pro series gloves deliver the performance, durability and high-quality materials every player needs to be at the top of their game. This collection features the best series from Wilson®, Rawlings®, Mizuno® and Nokona®—available in a range of colors and sizes for every position on the field. </p>
+
+    {% if data.sectionsActive %}
+
+        {% include "./boxNav.nunjucks" %}
+
+        {% include "./dropdownNav.nunjucks" %}
+
+    {% endif %}
+</div>

@@ -1,0 +1,17 @@
+{% if data.extraInActive %}
+    <div class="extraInnings flex">
+        <h3>Extra Innings</h3>
+        <p>Check out the complete collection of pro series gloves and get the accessories you need to keep your glove in top shape.</p>
+        <p>You can also bring your glove in store to get your mitt into game-day condition with glove steaming and more in select locations.</p>
+
+        <div class="innings between flex">
+        {% for i in data.extraInnings[0].blocks %}
+            <div class="inningsBox flex">
+                <a href="{{i.link}}" data-em="hp_#_"><img src="//dks.scene7.com/is/image/dksfed/{{i.img}}" /></a>
+                <a href="{{i.link}}" data-em="hp_#_">{{i.text}} <i class="fal fa-angle-right"></i></a>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+
+{% endif %}

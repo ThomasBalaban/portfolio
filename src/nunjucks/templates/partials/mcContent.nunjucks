@@ -3,12 +3,31 @@
 {% import "components/pids.nunjucks" as pids %}
 
  
-<div class="nj-wrapper {{configure.wrapperClass}}" id="nj-wrapper">
-  <div class="container">
+<div class="container baseball-page">
 
-    {{ series.heroblock(data, 0) }} 
+  {% include "../components/headerNav.nunjucks" %}
 
-testttt
-        {{ pids.blocks(data, 0) }}
-  </div>
+  {{ series.heroblock(data, 0) }}
+  {{ pids.blocks(data, 0) }}
+  
+  {{ series.heroblock(data, 1) }} 
+  {{ pids.blocks(data, 1) }}
+
+  {{ series.heroblock(data, 2) }} 
+  {{ pids.blocks(data, 2) }}
+
+  {{ series.heroblock(data, 3) }} 
+  {{ pids.blocks(data, 3) }}
+
+  {{ series.heroblock(data, 4) }} 
+  {{ pids.blocks(data, 4) }}
+
+  {{ series.heroblock(data, 5) }} 
+  {{ pids.blocks(data, 5) }}
+
+  {{ series.heroblock(data, 6) }} 
+  {{ pids.blocks(data, 6) }}
+
+  {% include "../components/extraInnings.nunjucks" %}
+  
 </div>

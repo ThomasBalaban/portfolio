@@ -1,0 +1,37 @@
+<nav class="desktop-nav">
+    <div class="section wilson">
+        <div class="img">
+            <img src="//dks.scene7.com/is/image/dksfed/LOGO_Wilson" />
+        </div>
+        <div class="links">
+            <a href="#{{data.section[0].id}}">A2K</a>
+            <a href="#{{data.section[1].id}}">A2000</a>
+        </div>
+    </div>
+    <div class="section rawlings">
+        <div class="img">
+            <img src="//dks.scene7.com/is/image/dksfed/LOGO_Rawlings" />
+        </div>
+        <div class="links">
+            <a href="#{{data.section[2].id}}">Heart of the Hide</a>
+            <a href="#{{data.section[3].id}}">Pro Preferred</a>
+            <a href="#{{data.section[4].id}}">Gold Glove</a>
+        </div>
+    </div>
+    <div class="section mizuno">
+        <div class="img">
+            <img src="//dks.scene7.com/is/image/dksfed/LOGO_Mizuno" />
+        </div>
+        <div class="links">
+            <a href="#{{data.section[5].id}}">Mizuno Pro</a>
+        </div>
+    </div>
+    <div class="section nokona">
+        <div class="img">
+            <img src="//dks.scene7.com/is/image/dksfed/LOGO_Nokona" />
+        </div>
+        <div class="links">
+            <a href="#{{data.section[6].id}}">Classic Walnut</a>
+        </div>
+    </div>
+</nav>

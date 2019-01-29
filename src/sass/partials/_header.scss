@@ -1,0 +1,149 @@
+.header {
+    flex-direction: column;
+
+    img {
+        margin-bottom: 20px;
+
+        &.mobile {
+            @media (min-width: 769px) {
+                display: none;
+            }
+        }
+
+        &.desktop {
+            display: none;
+
+            @media (min-width: 769px) {
+                display: block;
+            }
+        }
+    }
+
+    h2, p {
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    h2 {
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    p {
+        margin-bottom: 20px;
+
+        @media (min-width: 769px) {
+            padding: 0 20%;
+        }
+    }
+}
+
+.desktop-nav {
+    display: none;
+
+    @media (min-width: 769px) {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 20px 60px;
+
+        .section {
+            box-sizing: border-box;
+            border-top: 1px solid #bababa;
+            border-left: 1px solid #bababa;
+            position: relative;
+
+            .img {
+                background: #ffffff;
+                position: absolute;
+                top: -13px;
+                transform: translateX(-50%);
+                left: 50%;
+
+                img {
+                    width: 60px;
+                    margin: 0;
+                }
+            }
+
+            .links {
+                margin-top: 20px;
+                display: flex;
+                justify-content: space-between;
+
+                a {
+                    padding: 0 20px;
+                    width: 100px;
+                    text-align: center;
+                }
+            }
+
+            &.wilson {
+                flex: 27% 0 1;
+            }
+
+            &.rawlings {
+                flex: 43% 0 1;
+            }
+
+            &.mizuno {
+                flex: 15% 0 1;
+
+                .links {
+                    justify-content: center;
+                }
+            }
+
+            &.nokona {
+                flex: 15% 0 1;
+
+                .links {
+                    justify-content: center;
+                }
+            }
+
+            &:last-child {
+                border-right: 1px solid #bababa;
+            }
+        }
+    }
+}
+  
+.nav-main_button{
+    width: 100%;
+    padding: 10px 0;
+    display: block;
+}
+
+//Nav Start
+.nav-main{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+
+    @media (min-width: 769px) {
+        display: none;
+    }
+}
+
+.nav-main_list{
+    font-size: 1em;
+    max-height: 0;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+
+    &.active{
+        max-height: 999px;
+    } 
+}
+
+.nav-main_item{ 
+    border-top: 1px #bababa solid;
+    width: 100%;
+    display: block;
+}
+
+.nav-main_link{ 
+    display:  block;
+    padding: 10px;
+}

@@ -3,36 +3,134 @@
 		"sectionsActive": true,
 		"section": [
 			{
+				"id": "wilsonA2K",
 				"title": "Wilson A2K",
 				"regTrademark": true,
-				"heroImage": "something.png",
-				"imageSide": "left",
-				"list": [
-					{
-						"listitem": [
-							"lorem lorem lorem1",
-							"lorem lorem lorem2",
-							"lorem lorem lorem3"
-						]
-					}
-				],
-				"paragraph": "Extra lorem ipsums and figure out how to interpolate the sup's"
-			},
-
-			{
-				"title": "Wilson A2Knum2kits",
-				"regTrademark": true,
-				"heroImage": "something2.png",
+				"heroImage": "WilsonA2K_Feature",
 				"imageSide": "right",
 				"list": [
 					{
 						"listitem": [
-							"lorem lorem lorem1",
-							"lorem lorem lorem2"
+							"Top 5% Pro Stock™ Steerhide Leather",
+							"Select Styles Integrated with SuperSkin™ Leather",
+							"Double Palm Construction"
 						]
 					}
 				],
-				"paragraph": "Extra22222 lorem ipsums and figure out how to interpolate the sup's"
+				"paragraph": "Wilson’s most premium glove, the A2K is carefully hand shaped and crafted with the finest cuts of leather to break in without breaking down. A triple sorting process ensures each glove is made with the top 5% of Pro Stock hides. A2K gloves also feature a Double Palm Construction and Rolled Dual Welting™ for maximum stability and shape retention. Select A2K styles are integrated with exclusive SuperSkin™ leather, which is twice as strong as cowhide at only half the weight."
+			},
+
+			{
+				"id": "wilsonA2000",
+				"title": "Wilson A2000",
+				"regTrademark": true,
+				"heroImage": "WilsonA2000_Feature",
+				"imageSide": "left",
+				"list": [
+					{
+						"listitem": [
+							"American Pro Stock™ Steerhide Leather",
+							"Select Styles Integrated with SuperSkin™ Leather",
+							"Dri-Lex™ Wrist Lining"
+
+						]
+					}
+				],
+				"paragraph": "Chosen for its durable materials and solid break-in time, A2000 gloves boast top-level consistency with pro-inspired patterns. Designed with American Pro Stock steerhide leather, breathable Dri-Lex wrist lining and Dual Welting™, each glove provides quality support and comfort to give you the upper hand on the field. Select A2000 styles are integrated with exclusive SuperSkin™ leather, which is twice as strong as cowhide at only half the weight."
+			},
+			
+			{
+				"id": "rawlingsHeartoftheHide",
+				"title": "Rawlings Heart of the Hide",
+				"regTrademark": true,
+				"heroImage": "RawlingsHOH_Feature",
+				"imageSide": "right",
+				"list": [
+					{
+						"listitem": [
+							"Top 5% Leather",
+							"Shorter Break-In Period",
+							"Full-Grain Fingerback Linings"
+							
+
+						]
+					}
+				],
+				"paragraph": "Rawlings Heart of the Hide serves as the foundation for advanced player performance while delivering a shorter break-in period. Each HOH glove is carefully constructed from the top 5% of hides available and integrates full-grain fingerback linings for a premium feel."
+			},
+
+			{
+				"id": "rawlingsProPreferred",
+				"title": "Rawlings Pro Preferred®",
+				"regTrademark": true,
+				"heroImage": "RawlingsProPref_Feature",
+				"imageSide": "left",
+				"list": [
+					{
+						"listitem": [
+							"Kip Leather Look & Feel",
+							"Pittards® Sheepskin Palm Lining",
+							"100% Wool Padding"
+
+						]
+					}
+				],
+				"paragraph": "The signature Kip-leather look and feel of Rawlings Pro Preferred gloves place them in the upper level of fielding performance. These gloves are designed with professional patterns used by the game’s finest and feature Pittards sheepskin palm lining and 100% wool padding to maximize comfort."
+			},
+
+			{
+				"id": "rawlingsGoldGlove",
+				"title": "Rawlings Gold Glove",
+				"regTrademark": true,
+				"heroImage": "RawlingsGoldGlove_Feature",
+				"imageSide": "right",
+				"list": [
+					{
+						"listitem": [
+							"Flawless, European Leather",
+							"Meticulously Assembled by a Single Craftsman",
+							"Individual Serial Number for Authentication"
+
+						]
+					}
+				],
+				"paragraph": "Setting the bar for Rawlings pro series gloves, the Gold Glove represents more than 100 years of superior craftsmanship. Every Gold Glove is meticulously cut, assembled and sewn, start to finish, by a single craftsman and includes an individual serial number with the maker, date created and production number. Gold Gloves are made with top-of-the-line European leather, famous for its supple feel and durable finish. The calfskin palm lining helps reduce moisture during play."
+			},
+
+			{
+				"id": "mizunoProSeries",
+				"title": "Mizuno Pro™ Series ",
+				"regTrademark": true,
+				"heroImage": "Mizuno_Feature",
+				"imageSide": "left",
+				"list": [
+					{
+						"listitem": [
+							"Limited Edition, Pro & Pro Select Styles",
+							"Finest Quality Materials, Handcrafted for Excellence",
+							"Designs & Pockets Tailored for Every Position"
+							
+						]
+					}
+				],
+				"paragraph": "The Mizuno Pro series features the highest quality leather and raw materials from around the globe. Designed by master craftsman, the Pro series is available in three designs. Pro Series Limited Edition gloves feature the finest cuts of European leather and are handcrafted in Haga, Japan. Regarded as the finest ball glove leather available, each LE glove comes with a manufacturer reconditioning program that offers a one-time opportunity to restore it to its original condition. Pro Series gloves are handcrafted with a perfectly preformed pocket based on the needs of each position. They are designed with US Kip leather that offers a soft, firm feel that holds up at the highest levels of play. Pro Select Series gloves are made with US Steerhide leather for a firm, durable feel that forms to the hand once broken in."
+			},
+
+			{
+				"id": "nokonaClassicWalnut",
+				"title": "Nokona Classic Walnut™ ",
+				"heroImage": "NokonaWalnut_Feature",
+				"imageSide": "right",
+				"list": [
+					{
+						"listitem": [
+							"Top-Grain Walnut Crunch™ Leather",
+							"Premium Handcrafting",
+							"Minimal Break-In Needed"
+						]
+					}
+				],
+				"paragraph": "Nokona is applauded for its quality and revered for its long-standing heritage. Classic Walnut gloves undergo the same handcrafting process that has kept this brand at the top of the game for more than 80 years. Proudly American made, each glove features top-grain steerhide leather and is individually cut, stamped, stitched, laced and embroidered for a truly unique experience on the field."
 			}
 		],
 
@@ -42,42 +140,281 @@
 			{
 				"pid": [
 					{
-						"image": "something.png\" A2K stuff stuff stuff sutff stuff stuff stuff",
+						"image": "A2K_11.5",
 						"title": "Wilson 11.75",
 						"price": "$0.00",
-						"url": "/s/thisisprobably a link"	
+						"url": "/s/thisisprobably a link",
+						"shopAll": "Shop All Wilson A2K",
+						"shopAllLink": "/s/evenmorelinksmannn"
 					},
 					{
-						"image": "something.png\" A2K stuff stuff stuff sutff stuff stuff stuff",
-						"title": "Wilson 11.75",
-						"price": "$0.00",
-						"url": "/s/thisisprobably a link"
-					},
-					{
-						"image": "something.png\" A2K stuff stuff stuff sutff stuff stuff stuff",
+						"image": "A2K_11.75",
 						"title": "Wilson 11.75",
 						"price": "$0.00",
 						"url": "/s/thisisprobably a link"
 					},
 					{
-						"image": "something.png\" A2K stuff stuff stuff sutff stuff stuff stuff",
+						"image": "A2K_12",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link"
+					},
+					{
+						"image": "A2K_12.5",
 						"title": "Wilson 11.75",
 						"price": "$0.00",
 						"url": "/s/thisisprobably a link"	
 					},
 					{
-						"image": "something.png\" A2K stuff stuff stuff sutff stuff stuff stuff",
+						"image": "A2K_33.5",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link"	
+					}
+				]
+			},
+
+			{
+				"pid": [
+					{
+						"image": "A2000_11.5",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link",
+						"shopAll": "Shop All Wilson A2K",
+						"shopAllLink": "/s/evenmorelinksmannn"
+					},
+					{
+						"image": "A2000_33.5",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link"
+					},
+					{
+						"image": "A2000_11.75",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link"
+					},
+					{
+						"image": "A2000_12",
 						"title": "Wilson 11.75",
 						"price": "$0.00",
 						"url": "/s/thisisprobably a link"	
 					},
 					{
-						"shopping": [
-							{
-								"shopAll": "Shop All Wilson A2K",
-								"shopAllLink": "/s/evenmorelinksmannn"
-							}
-						]
+						"image": "A2000_12.75",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link"	
+					}
+				]
+			},
+
+			{
+				"pid": [
+					{
+						"image": "HOTH_12.75",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link",
+						"shopAll": "Shop All Wilson A2K",
+						"shopAllLink": "/s/evenmorelinksmannn"
+					},
+					{
+						"image": "HOTH_12.5",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link"
+					},
+					{
+						"image": "HOTH_11.5",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link"
+					},
+					{
+						"image": "HOTH_11.75",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link"	
+					},
+					{
+						"image": "HOTH_12",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link"	
+					}
+				]
+			},
+
+			{
+				"pid": [
+					{
+						"image": "ProPref_11.5",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link",
+						"shopAll": "Shop All Wilson A2K",
+						"shopAllLink": "/s/evenmorelinksmannn"
+					},
+					{
+						"image": "ProPref_11.75",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link"
+					},
+					{
+						"image": "ProPref_13",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link"
+					},
+					{
+						"image": "ProPref_12.25",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link"	
+					},
+					{
+						"image": "ProPref_12.75",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link"	
+					}
+				]
+			},
+
+			{
+				"pid": [
+					{
+						"image": "GoldGlove_11.75_Brwn",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link",
+						"shopAll": "Shop All Wilson A2K",
+						"shopAllLink": "/s/evenmorelinksmannn"	
+					},
+					{
+						"image": "GoldGlove_11.75_2019",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link"
+					},
+					{
+						"image": "GoldGlove_12.75",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link"
+					},
+					{
+						"image": "GoldGlove_12.75_2019",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link"	
+					},
+					{
+						"image": "GoldGlove_11.75",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link"	
+					}
+				]
+			},
+
+			{
+				"pid": [
+					{
+						"image": "MizunoPro_11.5",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link",
+						"shopAll": "Shop All Wilson A2K",
+						"shopAllLink": "/s/evenmorelinksmannn"
+					},
+					{
+						"image": "MizunoPro_11.75",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link"
+					},
+					{
+						"image": "MizunoPro_12.75",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link"
+					},
+					{
+						"image": "MizunoPro_12.75_Chestnut",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link"	
+					},
+					{
+						"image": "MizunoPro_12",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link"	
+					}
+				]
+			},
+
+			{
+				"pid": [
+					{
+						"image": "Nokona_11.5",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link",
+						"shopAll": "Shop All Wilson A2K",
+						"shopAllLink": "/s/evenmorelinksmannn"
+					},
+					{
+						"image": "Nokona_11.75",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link"
+					},
+					{
+						"image": "Nokona_12",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link"
+					},
+					{
+						"image": "Nokona_12.75",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link"	
+					},
+					{
+						"image": "Nokona_13",
+						"title": "Wilson 11.75",
+						"price": "$0.00",
+						"url": "/s/thisisprobably a link"	
+					}
+				]
+			}
+		],
+
+		"extraInActive": true,
+		"extraInnings": [
+			{
+				"blocks": [
+					{
+						"img": "ExtraInnings_ProSeries",
+						"link": "#shopallpro",
+						"text": "Shop All Pro Series Gloves"
+					},
+					{
+						"img": "ExtraInnings_GloveAccessories",
+						"link": "#shopallproAcc",
+						"text": "Shop Glove Accessories"
+					},
+					{
+						"img": "ExtraInnings_GloveServices",
+						"link": "#shopallproservices",
+						"text": "Services"
 					}
 				]
 			}

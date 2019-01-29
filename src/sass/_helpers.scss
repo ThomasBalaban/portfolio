@@ -1,16 +1,15 @@
-.ieSupport {
-    // &#golfathon {
-    //     .golfathon {
-    //         &-third {
-    //             padding-top: 6rem !important;
-    //         }
-    //     }
-    // }
+.flex {
+    display: flex;
 
-    // &#topBrands {
-    //     .right {
-    //         height: 500px;
-    //         width: 80%;
-    //     }
-    // }
+    &.center {
+        justify-content: center;
+    }
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.fa, .fab, .fal, .far, .fas {
+    font-family: FontAwesome;
 }

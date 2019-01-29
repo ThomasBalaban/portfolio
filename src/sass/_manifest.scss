@@ -15,5 +15,15 @@
 @import 'partials/moreWays';
 @import 'partials/textBanner';
 @import 'partials/dealSlider';
+
+.baseball-page {
+    max-width: 2000px; 
+    
+    @import 'partials/header';
+    @import 'partials/pidBlocks';
+    @import 'partials/seriesBlocks';
+    @import 'partials/extraInnings';
+}
+
 // overrides
 @import 'tmp';

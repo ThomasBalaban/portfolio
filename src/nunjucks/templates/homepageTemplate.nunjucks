@@ -5,12 +5,14 @@
     <title>DSG Homepage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="styles.css" type="text/css" rel="stylesheet"/>
-    <link href="//fonts.googleapis.com/css?family=Lato|Roboto|Roboto+Condensed|Roboto+Slab|Teko" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="styles.css" type="text/css" rel="stylesheet"/> 
+
     <link href="//d23a7wfrchtqnv.cloudfront.net/fonts/dsg-sans/font.css" rel="stylesheet">
     <link href="//d23a7wfrchtqnv.cloudfront.net/fonts/din_webfont/font.css" rel="stylesheet">
     <link href="//cdn.jsdelivr.net/g/jquery.slick@1.6.0(slick.css+slick-theme.css)" rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <link href="https://www.dickssportinggoods.com/wcsstore/DicksSportingGoods/css/DSGmain-bundle-css.css?ver=2018.1.2" type="text/css" rel="stylesheet" />
     <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
     <style>
