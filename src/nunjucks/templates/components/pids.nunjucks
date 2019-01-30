@@ -10,14 +10,19 @@
                         <a href="{{ i.url }}" title="{{ i.title }}" data-em="hp_#_">
                             <p>{{ i.title }}</p>
                         </a>
-                        <p class="price">{{ i.price }}</p>
+                        <p class="price"><a href="{{ i.url }}" title="{{ i.title }}" data-em="hp_#_">{{ i.price }}</a></p>
                     </div>
                 {% endfor %}
+                <div class="shop-all-mobile pid flex">
+                    <a href="{{data.pids[which].pid[0].shopAllLink}}" title="{{data.pids[which].pid[0].shopAll}}" data-em="hp_#_">
+                        {{data.pids[which].pid[0].shopAll}}
+                    </a>
+                </div>
             </div>
         </div>
-        <div class="shop-all flex center">
+        <div class="shop-all-desktop flex center">
             <a href="{{data.pids[which].pid[0].shopAllLink}}" title="{{data.pids[which].pid[0].shopAll}}" data-em="hp_#_">
-                {{data.pids[which].pid[0].shopAll}}
+                {{data.pids[which].pid[0].shopAll}} <i class="fal fa-angle-right"></i>
             </a>
         </div>
     {% endif %} 

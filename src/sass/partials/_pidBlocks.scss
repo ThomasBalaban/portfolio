@@ -57,15 +57,65 @@
 
     @media (min-width: 769px) {
         justify-content: space-between;
-        margin: 60px 20px 40px;
+        margin: 15px 20px 40px;
+    }
+
+    @media (min-width: 1200px) {
+        max-width: 1160px;
+        margin: 15px auto 40px;
     }
 }
 
-.shop-all {
+.shop-all-mobile {
     font-family: $fontDINMedium;
-    margin-bottom: 20px;
+
+    a {
+        border: 1px solid #bababa;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 15px;
+        height: 89px;
+        width: 100%;
+
+        @media (min-width: 375px) {
+            height: 102px;
+        }
+
+        @media (min-width: 425px) {
+            height: 122px;
+        }
+
+        @media (min-width: 490px) {
+            height: 152px;
+        }
+
+        @media (min-width: 605px) {
+            height: 160px;
+        }
+
+        @media (min-width: 645px) {
+            height: 143px;
+        }
+
+        @media (min-width: 762px) {
+            height: 152px;
+        }
+    }
 
     @media (min-width: 769px) {
+        display: none;
+    }
+}
+
+.shop-all-desktop {
+    display: none;
+
+    @media (min-width: 769px) {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
         border-top: 1px solid #bababa;
         position: relative;
         margin: 0 20px 40px;
@@ -73,9 +123,14 @@
         & > a {
             padding: 5px 10px;
             border: 1px solid #bababa;
-            position: absolute;
+            position: relative;
             top: -14px;
             background: #ffffff;
         }
+    }
+
+    @media (min-width: 1200px) {
+        max-width: 1160px;
+        margin: 15px auto 40px;
     }
 }

@@ -106,6 +106,11 @@
             }
         }
     }
+
+    @media (min-width: 1200px) {
+        margin: 20px auto 60px;
+        width: 1160px;
+    }
 }
   
 .nav-main_button{
@@ -119,6 +124,14 @@
     text-align: center;
     width: 100%;
     margin-bottom: 10px;
+    background: #bababa;
+    text-transform: uppercase;
+
+    .nav-main_button {
+        font-family: $fontDSGBold;
+        font-weight: bold;
+        font-size: 2rem;
+    }
 
     @media (min-width: 769px) {
         display: none;
@@ -138,7 +151,8 @@
 }
 
 .nav-main_item{ 
-    border-top: 1px #bababa solid;
+    border-bottom: 1px #bababa solid;
+    background: #ffffff;
     width: 100%;
     display: block;
 }

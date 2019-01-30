@@ -3,7 +3,7 @@
     <ul class="nav-main_list" id="mobile-menu">
         {% for i in data.section %}
             <li class="nav-main_item">
-                <a href="#{{ i.id }}" class="nav-main_link">{{ i.id }}</a>
+                <a href="#{{ i.id }}" class="nav-main_link">{{ i.title }}<sup>&reg;</sup></a>
             </li>
         {% endfor %}
     </ul>
@@ -34,7 +34,6 @@ function activeState(trigger1){
 
 // find when user scrolled past the menu
 $(document).on('scroll', function() {
-    console.log( $(this).scrollTop() );
 
     if( $(this).scrollTop() >= menuPos && menufixed === false ){
         
@@ -51,7 +50,7 @@ $(document).on('scroll', function() {
 
 // makes the menu sticky to top
 function stickyNav(){
-    $('.nav-main').css({"position":"fixed", 'top': '0px', 'background': 'white', 'z-index': '3'});
+    $('.nav-main').css({"position":"fixed", 'top': '0px', 'z-index': '3'});
 }
 
 // makes the menu not sticky

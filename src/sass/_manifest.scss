@@ -16,9 +16,12 @@
 @import 'partials/textBanner';
 @import 'partials/dealSlider';
 
-.baseball-page {
-    max-width: 2000px; 
-    
+.baseball-page {    
+    a:hover {
+        color: $dsgGreen;
+        text-decoration: none;
+    }
+
     @import 'partials/header';
     @import 'partials/pidBlocks';
     @import 'partials/seriesBlocks';

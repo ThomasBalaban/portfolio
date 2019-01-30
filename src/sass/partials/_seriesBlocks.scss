@@ -4,10 +4,12 @@
     border-top: 1px solid #bababa;
     line-height: 1.3;
     font-size: 14px;
+    
 
     h3 {
         font-size: 2rem;
         margin-bottom: 5px;
+        text-transform: uppercase;
 
         @media (min-width: 769px) {
             border-bottom: 1px solid #bababa;
@@ -38,20 +40,22 @@
         text-transform: uppercase;
         font-family: $fontDINMedium;
         font-size: 1.2rem;
-        margin-bottom: 3px;
-        line-height: 0;
+        line-height: 1;
     }
 
     .information {
         display: none;
+        margin-bottom: 20px;
 
         @media (min-width: 769px) {
             display: block;
+            margin-bottom: 0;
         }
     }
 
     .center {
         text-align: center;
+        margin: 0 30%;
 
         @media (min-width: 769px) {
             display: none;
@@ -82,6 +86,8 @@
     @media (min-width: 769px) {
         flex-direction: row;
         border-top: none;
+        max-width: 1200px;
+        margin: 0 auto;
 
         &.left {
             flex-direction: row-reverse;

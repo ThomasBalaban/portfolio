@@ -6,9 +6,11 @@
 
         <div class="innings between flex">
         {% for i in data.extraInnings[0].blocks %}
-            <div class="inningsBox flex">
-                <a href="{{i.link}}" data-em="hp_#_"><img src="//dks.scene7.com/is/image/dksfed/{{i.img}}" /></a>
-                <a href="{{i.link}}" data-em="hp_#_">{{i.text}} <i class="fal fa-angle-right"></i></a>
+            <div class="inningsBox">
+                <a href="{{i.link}}" data-em="hp_#_" title="{{i.text}}">
+                    <img alt="{{i.text}}" src="//dks.scene7.com/is/image/dksfed/{{i.img}}" />
+                </a>
+                <a href="{{i.link}}" data-em="hp_#_" title="{{i.text}}">{{i.text}} <i class="fal fa-angle-right"></i></a>
             </div>
         {% endfor %}
         </div>

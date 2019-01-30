@@ -31,3 +31,21 @@
   {% include "../components/extraInnings.nunjucks" %}
   
 </div>
+
+<script>
+
+$('.series .center').on('click',function(){
+    console.log(this);
+    console.log($(this).parent().find(".information"));
+    $(this).parent().find(".information").toggle();
+
+    if( $(this).find('i').hasClass('fa-angle-down') ) {
+      $(this).find('i').addClass('fa-angle-up');
+      $(this).find('i').removeClass('fa-angle-down');
+    } else {
+      $(this).find('i').addClass('fa-angle-down');
+      $(this).find('i').removeClass('fa-angle-up');
+    }
+});
+
+</script>
