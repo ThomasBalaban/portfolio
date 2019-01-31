@@ -218,9 +218,9 @@
 						"image": "HOTH_12.75",
 						"title": "Rawlings 12.75’’ Bryce Harper HOH R2G Series Glove 2019",
 						"price": "$259.99",
-						"url": "/s/thisisprobably a link",
+						"url": "/p/rawlings-12-75-bryce-harper-hoh-r2g-series-glove-2019-18rawahhr2g1275hwbgl/18rawahhr2g1275hwbgl?",
 						"shopAll": "Shop All Rawlings Heart Of The Hide",
-						"shopAllLink": "/p/rawlings-12-75-bryce-harper-hoh-r2g-series-glove-2019-18rawahhr2g1275hwbgl/18rawahhr2g1275hwbgl?"
+						"shopAllLink": "/f/rawlings-hoh-series-pro-gloves"
 					},
 					{
 						"image": "HOTH_12.5",
@@ -289,7 +289,7 @@
 			{
 				"pid": [
 					{
-						"image": "GoldGlove_11.75_Brwn",
+						"image": "GoldGlove_11.75",
 						"title": "Rawlings 11.75\" Gold Glove Series Glove",
 						"price": "$499.99",
 						"url": "/p/rawlings-11-75-gold-glove-series-glove-16rawa1175gldglvbbgl/16rawa1175gldglvbbgl",
@@ -297,14 +297,14 @@
 						"shopAllLink": "/f/rawlings-gold-glove-series-baseball-gloves"	
 					},
 					{
-						"image": "GoldGlove_11.75_2019",
-						"title": "Rawlings 11.75'' Gold Glove Series Glove 2019",
+						"image": "GoldGlove_11.75_Brwn",
+						"title": "Rawlings 12.75\" Gold Glove Series Glove",
 						"price": "$499.99",
-						"url": "/p/rawlings-12-75-gold-glove-series-glove-16rawa1275gldglvbbgl/16rawa1275gldglvbbgl"
+						"url": "/p/rawlings-11-75-gold-glove-series-2019-18rawagg1175fbrwnbgl/18rawagg1175fbrwnbgl"
 					},
 					{
 						"image": "GoldGlove_12.75",
-						"title": "Rawlings 12.75\" Gold Glove Series Glove",
+						"title": "Rawlings 11.75'' Gold Glove Series Glove 2019",
 						"price": "$499.99",
 						"url": "/p/rawlings-11-75-gold-glove-series-2019-18rawagg1175fbrwnbgl/18rawagg1175fbrwnbgl"
 					},
@@ -312,13 +312,13 @@
 						"image": "GoldGlove_12.75_2019",
 						"title": "Rawlings 12.75'' Gold Glove Series Glove 2019",
 						"price": "$499.99",
-						"url": "/p/rawlings-11-75-gold-glove-series-2019-18rawa2019gldglv1bgl/18rawa2019gldglv1bgl"	
+						"url": "/p/rawlings-12-75-gold-glove-series-glove-16rawa1275gldglvbbgl/16rawa1275gldglvbbgl"	
 					},
 					{
-						"image": "GoldGlove_11.75",
-						"title": "Rawlings 11.75'' Gold Glove Series Glove 2019",
+						"image": "GoldGlove_11.75_2019",
+						"title": "Rawlings 12.75'' Gold Glove Series Glove 2019",
 						"price": "$499.99",
-						"url": "/p/rawlings-12-75-gold-glove-series-2019-18rawa2019gldglv1bgla/18rawa2019gldglv1bgla"	
+						"url": "/p/rawlings-11-75-gold-glove-series-2019-18rawa2019gldglv1bgl/18rawa2019gldglv1bgl"	
 					}
 				]
 			},
@@ -327,8 +327,8 @@
 				"pid": [
 					{
 						"image": "MizunoPro_11.5",
-						"title": "Mizuno 11.5'' Pro Series Glove",
-						"price": "$349.99",
+						"title": "Mizuno 11.5'' Pro LE Series Glove",
+						"price": "$599.99",
 						"url": "/p/mizuno-11-5-pro-series-glove-17miza115mznprcntbgl/17miza115mznprcntbgl?",
 						"shopAll": "Shop All Mizuno Pro Series",
 						"shopAllLink": "/f/mizuno-pro-series-gloves"
@@ -337,19 +337,19 @@
 						"image": "MizunoPro_11.75",
 						"title": "Mizuno 11.75'' Pro Series Glove",
 						"price": "$349.99",
-						"url": "/p/mizuno-11-75-pro-series-glove-17miza1175mznprcnbgl/17miza1175mznprcnbgl?"
+						"url": "/p/mizuno-11-75-pro-series-glove-17miza1175mzprblnbgla/17miza1175mzprblnbgla"
 					},
 					{
 						"image": "MizunoPro_12.75",
 						"title": "Mizuno 12.75'' Pro Series Glove",
 						"price": "$349.99",
-						"url": "/p/mizuno-12-75-pro-series-glove-17mizamznpr1275chbgl/17mizamznpr1275chbgl?"
+						"url": "/p/mizuno-12-75-pro-series-glove-17miza1275mzprblnbgl/17miza1275mzprblnbgl?"
 					},
 					{
 						"image": "MizunoPro_12.75_Chestnut",
-						"title": "Mizuno 12.75’’ Pro Series Glove",
-						"price": "$349.99",
-						"url": "/p/mizuno-12-75-pro-series-glove-17miza1275mzprblnbgl/17miza1275mzprblnbgl?"	
+						"title": "Mizuno 12.75’’ Pro LE Series",
+						"price": "$599.99",
+						"url": "/p/mizuno-12-75-pro-series-glove-17mizamznpr1275chbgl/17mizamznpr1275chbgl?"
 					},
 					{
 						"image": "MizunoPro_12",
@@ -366,7 +366,7 @@
 						"image": "Nokona_11.5",
 						"title": "Nokona 11.5\" Classic Walnut Series Glove",
 						"price": "$249.99",
-						"url": "/p/nokona-12-classic-walnut-series-glove-16noka12clsscwlntbgla/16noka12clsscwlntbgla",
+						"url": "/p/nokona-11-5-classic-walnut-series-glove-16noka115clsscwlnbgla/16noka115clsscwlnbgla",
 						"shopAll": "Shop All Nokona Classic Walnut",
 						"shopAllLink": "/f/nokona-classic-walnut-series-gloves"
 					},
@@ -374,25 +374,25 @@
 						"image": "Nokona_11.75",
 						"title": "Nokona 11.75'' Classic Walnut Series Glove",
 						"price": "$249.99",
-						"url": "/p/nokona-13-classic-walnut-series-glove-16noka13clsscwlntbgla/16noka13clsscwlntbgla"
+						"url": "/p/nokona-11-75-classic-walnut-series-glove-17nokawlnt1175xxxbgl/17nokawlnt1175xxxbgl"
 					},
 					{
 						"image": "Nokona_12",
 						"title": "Nokona 12\" Classic Walnut Series Glove",
 						"price": "$249.99",
-						"url": "/p/nokona-12-75-classic-walnut-series-glove-16noka1275clsscwlbgla/16noka1275clsscwlbgla"
+						"url": "/p/nokona-12-classic-walnut-series-glove-16noka12clsscwlntbgla/16noka12clsscwlntbgla"
 					},
 					{
 						"image": "Nokona_12.75",
 						"title": "Nokona 12.75\" Classic Walnut Series Glove",
 						"price": "$249.99",
-						"url": "/p/nokona-11-5-classic-walnut-series-glove-16noka115clsscwlnbgla/16noka115clsscwlnbgla"	
+						"url": "/p/nokona-12-75-classic-walnut-series-glove-16noka1275clsscwlbgla/16noka1275clsscwlbgla"	
 					},
 					{
 						"image": "Nokona_13",
 						"title": "Nokona 13\" Classic Walnut Series Glove",
 						"price": "$249.99",
-						"url": "/p/nokona-11-75-classic-walnut-series-glove-17nokawlnt1175xxxbgl/17nokawlnt1175xxxbglk"	
+						"url": "/p/nokona-13-classic-walnut-series-glove-16noka13clsscwlntbgla/16noka13clsscwlntbgla"	
 					}
 				]
 			}
