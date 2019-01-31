@@ -2,7 +2,9 @@
     {% if data.sectionsActive %}
         <div id="{{data.section[which].id}}" class="series flex between {{data.section[which].imageSide}}">
             <div class="text">
-                <h3>{{data.section[which].title}}<sup>&reg;</sup></h3>
+                <h3>
+                    {{data.section[which].title}}{% if data.section[which].regTrademark %}<sup>&reg;</sup>{% endif %}
+                </h3>
                 <p><strong>Features</strong></p>
                 <ul>
                     {% for i in data.section[which].list[0].listitem %}
@@ -13,7 +15,7 @@
                     <p class="learn-more">Learn More</p>
                     <i class="fas fa-angle-down"></i>
                 </div>
-                <p class="information">{{data.section[which].paragraph}}</p>
+                <p class="information">{{data.section[which].paragraph | safe}}</p>
             </div>
             <div class="img">
                 <img src="//dks.scene7.com/is/image/dksfed/{{data.section[which].heroImage}}" alt="{{data.section[which].title}}"/>

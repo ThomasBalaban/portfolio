@@ -23,7 +23,7 @@
             <img alt="Mizuna" src="//dks.scene7.com/is/image/dksfed/LOGO_Mizuno" />
         </div>
         <div class="links">
-            <a href="#{{data.section[5].id}}" title="Go to Mizuno Pro">Mizuno Pro</a>
+            <a href="#{{data.section[5].id}}" title="Go to Mizuno Pro">Pro</a>
         </div>
     </div>
     <div class="section nokona">

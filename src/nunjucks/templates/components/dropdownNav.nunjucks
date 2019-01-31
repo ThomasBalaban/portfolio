@@ -3,7 +3,9 @@
     <ul class="nav-main_list" id="mobile-menu">
         {% for i in data.section %}
             <li class="nav-main_item">
-                <a href="#{{ i.id }}" class="nav-main_link">{{ i.title }}<sup>&reg;</sup></a>
+                <a href="#{{ i.id }}" class="nav-main_link">{{ i.title }}
+                {% if i.regTrademark %}<sup>&reg;</sup>{% endif %}
+                </a>
             </li>
         {% endfor %}
     </ul>

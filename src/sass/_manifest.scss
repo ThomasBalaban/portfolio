@@ -16,10 +16,66 @@
 @import 'partials/textBanner';
 @import 'partials/dealSlider';
 
-.baseball-page {    
+section#static-page {
+    @media (max-width: 768px) {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+#static-page .fa-angle-right {
+    float: none;
+    margin-top: none;
+}
+
+.baseball-page {
+    
+    font-size: 14px;
+
     a:hover {
         color: $dsgGreen;
         text-decoration: none;
+    }
+
+    body, html {
+        font-size: 14px,
+    }
+    
+    p {
+        line-height: 1.6rem;
+        font-family: "DIN Light",sans-serif;
+        margin: 0;
+        font-size: 1rem;
+
+        @media (min-width: 769px) {
+            font-size: 1.3rem;
+        }
+    }
+    
+    ul {
+        font-family: "DIN Light",sans-serif; 
+    }
+    
+    li, ol {
+        font-size: 1rem;
+        line-height: 1;
+
+        @media (min-width: 769px) {
+            font-size: 1.3rem;
+        }
+    }
+    
+    h1, h2, h3, h4, strong {
+        font-family: "DIN Medium",sans-serif;
+    }
+    
+    a {
+        font-family: "DIN Medium",sans-serif;
+        color: #333;
+    }
+    
+    i {
+        font-style: normal;
     }
 
     @import 'partials/header';

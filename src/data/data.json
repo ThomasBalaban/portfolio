@@ -11,13 +11,13 @@
 				"list": [
 					{
 						"listitem": [
-							"Top 5% Pro Stock™ Steerhide Leather",
-							"Select Styles Integrated with SuperSkin™ Leather",
+							"Top 5% Pro Stock™ Steerhide Material",
+							"Select Styles Integrated with SuperSkin™ Material",
 							"Double Palm Construction"
 						]
 					}
 				],
-				"paragraph": "Wilson’s most premium glove, the A2K is carefully hand shaped and crafted with the finest cuts of leather to break in without breaking down. A triple sorting process ensures each glove is made with the top 5% of Pro Stock hides. A2K gloves also feature a Double Palm Construction and Rolled Dual Welting™ for maximum stability and shape retention. Select A2K styles are integrated with exclusive SuperSkin™ leather, which is twice as strong as cowhide at only half the weight."
+				"paragraph": "Wilson’s most premium glove, the A2K is carefully hand shaped and crafted with the finest cuts of material to break in without breaking down. A triple sorting process ensures each glove is made with the top 5% of Pro Stock hides. A2K gloves also feature a Double Palm Construction and Rolled Dual Welting™ for maximum stability and shape retention. Select A2K styles are integrated with exclusive SuperSkin™ material, which is twice as strong as cowhide at only half the weight."
 			},
 
 			{
@@ -29,14 +29,14 @@
 				"list": [
 					{
 						"listitem": [
-							"American Pro Stock™ Steerhide Leather",
-							"Select Styles Integrated with SuperSkin™ Leather",
+							"American Pro Stock™ Steerhide Material",
+							"Select Styles Integrated with SuperSkin™ Material",
 							"Dri-Lex™ Wrist Lining"
 
 						]
 					}
 				],
-				"paragraph": "Chosen for its durable materials and solid break-in time, A2000 gloves boast top-level consistency with pro-inspired patterns. Designed with American Pro Stock steerhide leather, breathable Dri-Lex wrist lining and Dual Welting™, each glove provides quality support and comfort to give you the upper hand on the field. Select A2000 styles are integrated with exclusive SuperSkin™ leather, which is twice as strong as cowhide at only half the weight."
+				"paragraph": "Chosen for its durable materials and solid break-in time, A2000 gloves boast top-level consistency with pro-inspired patterns. Designed with American Pro Stock steerhide material, breathable Dri-Lex wrist lining and Dual Welting™, each glove provides quality support and comfort to give you the upper hand on the field. Select A2000 styles are integrated with exclusive SuperSkin™ material, which is twice as strong as cowhide at only half the weight."
 			},
 			
 			{
@@ -100,7 +100,7 @@
 			{
 				"id": "mizunoProSeries",
 				"title": "Mizuno Pro™ Series ",
-				"regTrademark": true,
+				"regTrademark": false,
 				"heroImage": "Mizuno_Feature",
 				"imageSide": "left",
 				"list": [
@@ -113,12 +113,13 @@
 						]
 					}
 				],
-				"paragraph": "The Mizuno Pro series features the highest quality leather and raw materials from around the globe. Designed by master craftsman, the Pro series is available in three designs. Pro Series Limited Edition gloves feature the finest cuts of European leather and are handcrafted in Haga, Japan. Regarded as the finest ball glove leather available, each LE glove comes with a manufacturer reconditioning program that offers a one-time opportunity to restore it to its original condition. Pro Series gloves are handcrafted with a perfectly preformed pocket based on the needs of each position. They are designed with US Kip leather that offers a soft, firm feel that holds up at the highest levels of play. Pro Select Series gloves are made with US Steerhide leather for a firm, durable feel that forms to the hand once broken in."
+				"paragraph": "The Mizuno Pro series features the highest quality leather and raw materials from around the globe. Designed by master craftsmen, the Pro series is available in three designs. <strong>Pro Series Limited Edition</strong> gloves feature the finest cuts of European leather and are handcrafted in Haga, Japan. Regarded as the finest ball glove leather available, each LE glove comes with a manufacturer reconditioning program that offers a one-time opportunity to restore it to its original condition. <strong>Pro Series</strong> gloves are handcrafted with a perfectly preformed pocket based on the needs of each position. They are designed with US Kip leather that offers a soft, firm feel that holds up at the highest levels of play. <strong>Pro Select Series</strong> gloves are made with US Steerhide leather for a firm, durable feel that forms to the hand once broken in."
 			},
 
 			{
 				"id": "nokonaClassicWalnut",
 				"title": "Nokona Classic Walnut™ ",
+				"regTrademark": false,
 				"heroImage": "NokonaWalnut_Feature",
 				"imageSide": "right",
 				"list": [
@@ -181,7 +182,7 @@
 						"title": "Wilson 11.5’’ A2000 1786 Glove 2019",
 						"price": "$259.99",
 						"url": "/p/wilson-11-5-1786-a2000-series-glove-2019-18wila11520001786bgl/18wila11520001786bgl?",
-						"shopAll": "Shop All Wilson A2K",
+						"shopAll": "Shop All Wilson A2000",
 						"shopAllLink": "/f/wilson-a2000-pro-series-gloves"
 					},
 					{
@@ -218,7 +219,7 @@
 						"title": "Rawlings 12.75’’ Bryce Harper HOH R2G Series Glove 2019",
 						"price": "$259.99",
 						"url": "/s/thisisprobably a link",
-						"shopAll": "Shop All Wilson A2K",
+						"shopAll": "Shop All Rawlings Heart Of The Hide",
 						"shopAllLink": "/p/rawlings-12-75-bryce-harper-hoh-r2g-series-glove-2019-18rawahhr2g1275hwbgl/18rawahhr2g1275hwbgl?"
 					},
 					{
@@ -255,7 +256,7 @@
 						"title": "Rawlings 11.5’’ Pro Preferred Series Glove 2019",
 						"price": "$359.99",
 						"url": "/p/rawlings-11-5-pro-preferred-series-glove-2019-18rawa115prprfcmlbgl/18rawa115prprfcmlbgl?",
-						"shopAll": "Shop All Wilson A2K",
+						"shopAll": "Shop All Rawlings Pro Preferred",
 						"shopAllLink": "/f/rawlings-pro-preferred-series-gloves"
 					},
 					{
@@ -292,7 +293,7 @@
 						"title": "Rawlings 11.75\" Gold Glove Series Glove",
 						"price": "$499.99",
 						"url": "/p/rawlings-11-75-gold-glove-series-glove-16rawa1175gldglvbbgl/16rawa1175gldglvbbgl",
-						"shopAll": "Shop All Wilson A2K",
+						"shopAll": "Shop All Rawlings Gold Glove",
 						"shopAllLink": "/f/rawlings-gold-glove-series-baseball-gloves"	
 					},
 					{
@@ -329,7 +330,7 @@
 						"title": "Mizuno 11.5'' Pro Series Glove",
 						"price": "$349.99",
 						"url": "/p/mizuno-11-5-pro-series-glove-17miza115mznprcntbgl/17miza115mznprcntbgl?",
-						"shopAll": "Shop All Wilson A2K",
+						"shopAll": "Shop All Mizuno Pro Series",
 						"shopAllLink": "/f/mizuno-pro-series-gloves"
 					},
 					{
@@ -366,7 +367,7 @@
 						"title": "Nokona 11.5\" Classic Walnut Series Glove",
 						"price": "$249.99",
 						"url": "/p/nokona-12-classic-walnut-series-glove-16noka12clsscwlntbgla/16noka12clsscwlntbgla",
-						"shopAll": "Shop All Wilson A2K",
+						"shopAll": "Shop All Nokona Classic Walnut",
 						"shopAllLink": "/f/nokona-classic-walnut-series-gloves"
 					},
 					{
@@ -414,7 +415,7 @@
 					{
 						"img": "ExtraInnings_GloveServices",
 						"link": "/s/baseball-softball-services",
-						"text": "Services"
+						"text": "View Glove Services"
 					}
 				]
 			}

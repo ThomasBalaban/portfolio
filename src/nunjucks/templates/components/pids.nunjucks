@@ -14,14 +14,14 @@
                     </div>
                 {% endfor %}
                 <div class="shop-all-mobile pid flex">
-                    <a href="{{data.pids[which].pid[0].shopAllLink}}" title="{{data.pids[which].pid[0].shopAll}}" data-em="hp_#_">
+                    <a href="{{data.pids[which].pid[0].shopAllLink}}" target="_blank" title="{{data.pids[which].pid[0].shopAll}}" data-em="hp_#_">
                         {{data.pids[which].pid[0].shopAll}}
                     </a>
                 </div>
             </div>
         </div>
         <div class="shop-all-desktop flex center">
-            <a href="{{data.pids[which].pid[0].shopAllLink}}" title="{{data.pids[which].pid[0].shopAll}}" data-em="hp_#_">
+            <a href="{{data.pids[which].pid[0].shopAllLink}}" target="_blank" title="{{data.pids[which].pid[0].shopAll}}" data-em="hp_#_">
                 {{data.pids[which].pid[0].shopAll}} <i class="fal fa-angle-right"></i>
             </a>
         </div>
