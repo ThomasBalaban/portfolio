@@ -1,0 +1,17 @@
+{% if data.tourLocationActive %}
+    <div class="locations">
+
+        <h3>{{data.tourLocations[0].title}}</h3>
+        <h4>{{data.tourLocations[0].subTitle}}</h4>
+
+        <div class="location flex between">
+            {% for i in data.tourLocations[0].e %}
+                <div class="spot">
+                    <p><strong>{{ i.locations }}</strong></p> 
+                    <p>{{ i.date }}</p>
+                </div>
+            {% endfor %}
+        </div>
+           
+    </div>
+{% endif %} 

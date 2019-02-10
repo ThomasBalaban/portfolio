@@ -28,7 +28,7 @@ section#static-page {
     margin-top: none;
 }
 
-.baseball-page {
+.customFitting-page {
     
     font-size: 14px;
 
@@ -65,7 +65,7 @@ section#static-page {
         }
     }
     
-    h1, h2, h3, h4, strong {
+    strong {
         font-family: "DIN Medium",sans-serif;
     }
     
@@ -78,10 +78,18 @@ section#static-page {
         font-style: normal;
     }
 
+    h3 {
+        font-family: $vitesse-light;
+        font-weight: 200;
+        color: #678e71;
+    }
+
     @import 'partials/header';
     @import 'partials/pidBlocks';
     @import 'partials/seriesBlocks';
     @import 'partials/extraInnings';
+    @import 'partials/locations';
+    @import 'partials/threeRowWLink';
 }
 
 // overrides

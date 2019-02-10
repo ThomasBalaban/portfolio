@@ -13,3 +13,18 @@
 .fa, .fab, .fal, .far, .fas {
     font-family: FontAwesome;
 }
+
+
+.mobile {
+    @media (min-width: 769px) {
+        display: none;
+    }
+}
+
+.desktop {
+    display: none;
+
+    @media (min-width: 769px) {
+        display: block;
+    }
+}

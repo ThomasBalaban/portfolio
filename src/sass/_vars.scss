@@ -50,6 +50,17 @@ $dsgBurgundy: #8B000E;
 $dsgSummerBlue: #1b3a61;
 $dsgWhite: white;
 
+$fallback: 'Arial Thin', 'Helvetica', 'Arial', sans-serif;
+$serif-fallback: 'Courier', 'Courier New', serif;
+
+$hind: 'Hind Siliguri', 'Arial', $fallback;
+$vitesse-thin: 'Vitesse Thin', $serif-fallback;
+$vitesse-light: 'Vitesse Light', $vitesse-thin;
+$vitesse-book: 'Vitesse Book', $vitesse-light;
+$vitesse-medium: 'Vitesse Medium', $vitesse-book;
+$vitesse-bold: 'Vitesse Bold', $vitesse-medium;
+$vitesse-black: 'Vitesse Black', $vitesse-bold;
+
 // Colors
 $white: rgba(255, 255, 255, 1);
 

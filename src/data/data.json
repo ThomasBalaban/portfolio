@@ -1,6 +1,6 @@
 {
 	"data": {
-		"sectionsActive": true,
+		"sectionsActive": false,
 		"section": [
 			{
 				"id": "wilsonA2K",
@@ -136,7 +136,7 @@
 		],
 
 
-		"pidsActive": true,
+		"pidsActive": false,
 		"pids": [
 			{
 				"pid": [
@@ -398,7 +398,7 @@
 			}
 		],
 
-		"extraInActive": true,
+		"extraInActive": false,
 		"extraInnings": [
 			{
 				"blocks": [
@@ -416,6 +416,115 @@
 						"img": "ExtraInnings_GloveServices",
 						"link": "/s/baseball-softball-services",
 						"text": "View Glove Services"
+					}
+				]
+			}
+		],
+
+		"threeCallOutWithLink": true,
+		"threeCallOuts": [
+			{
+				"linkText": "Shop Epic Flash",
+				"linkAddress": "/f/callaway-epic-flash-family",
+				"callouts": [
+					{
+						"text": "Get a FREE 30-minute fitting by a Callaway Rep-Callaway will have a fitting simulator and hitting bays set up to a custom fit your game"
+					},
+					{
+						"text": "Check out the new Callaway Stroke Lab putters on the Callaway outdoor putting green"
+					},
+					{
+						"text": "Receive a 50% Callaway Loyalty Bonus towards your EPIC Flash, Apex, or Big Bertha purchase"
+					}
+				]
+			}
+		],
+
+		"tourLocationActive": true,
+		"tourLocations": [
+			{
+				"title": "Tour Locations & Dates",
+				"subTitle": "Find an event in your area",
+				"e": [
+					{
+						"locations": "Orlando, FL",
+						"date": "February 1 - 2"
+					},
+					{
+						"locations": "Sarasota, FL",
+						"date": "February 8 - 9"
+					},
+					{
+						"locations": "Naples, FL",
+						"date": "February 15 - 16"
+					},
+					{
+						"locations": "Fort Myers, FL",
+						"date": "February 22 - 23"
+					},
+					{
+						"locations": "Baybrook, TX",
+						"date": "March 1 - 2"
+					},
+					{
+						"locations": "San Antonio, TX",
+						"date": "March 8 - 9"
+					},
+					{
+						"locations": "Austim Arboretum, TX",
+						"date": "March 15 - 16"
+					},
+					{
+						"locations": "Grapvine, TX",
+						"date": "March 22 - 23"
+					},
+					{
+						"locations": "Oklahoma City, OK",
+						"date": "March 29 - 30"
+					},
+					{
+						"locations": "Englewood, CO",
+						"date": "April 5 - 6"
+					},
+					{
+						"locations": "Loveland, CO",
+						"date": "April 12 - 13"
+					},
+					{
+						"locations": "Overland Park, KS",
+						"date": "April 19 - 20"
+					},
+					{
+						"locations": "West Des Moines, IA",
+						"date": "April 26 - 27"
+					},
+					{
+						"locations": "Richfield, MN",
+						"date": "May 3 - 4"
+					},
+					{
+						"locations": "Brookfield, WI",
+						"date": "May 10 - 11"
+					},
+					{
+						"locations": "Lakeside, MI",
+						"date": "May 17 - 18"
+					},
+					{
+						"locations": "Castleton, IN",
+						"date": "May 24 - 25"
+					},
+					{
+						"locations": "Columbus (Easton), OH",
+						"date": "May 31 - June 1"
+					},
+					{
+						"locations": "Pittsburgh, PAL",
+						"date": "June 7 - 8"
+					},
+					{
+						"locations": "Devon, PA",
+						"date": "June 14 - 15"
 					}
 				]
 			}

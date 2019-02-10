@@ -3,20 +3,6 @@
 
     img {
         margin-bottom: 20px;
-
-        &.mobile {
-            @media (min-width: 769px) {
-                display: none;
-            }
-        }
-
-        &.desktop {
-            display: none;
-
-            @media (min-width: 769px) {
-                display: block;
-            }
-        }
     }
 
     h2, p {

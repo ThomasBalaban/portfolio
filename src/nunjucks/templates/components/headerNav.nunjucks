@@ -1,8 +1,8 @@
 <div class="header flex">
-    <img class="mobile" alt="Filder's Finest - Elevate Your Game With Pro Series Gloves" src="//dks.scene7.com/is/image/dksfed/FieldersFinest_Header_M" />
-    <img class="desktop" alt="Filder's Finest - Elevate Your Game With Pro Series Gloves" src="//dks.scene7.com/is/image/dksfed/FieldersFinest_Header_D" />
-    <h2>The Pro Glove Difference</h2>
-    <p>Pro series gloves deliver the performance, durability and high-quality materials every player needs to be at the top of their game. This collection features the best series from Wilson®, Rawlings®, Mizuno® and Nokona®—available in a range of colors and sizes for every position on the field. </p>
+    <img class="mobile" alt="Filder's Finest - Elevate Your Game With Pro Series Gloves" src="//dks.scene7.com/is/image/dksfed/GG2221_LP_mob_CallawayEpicFlashTour_Background" />
+    <img class="desktop" alt="Filder's Finest - Elevate Your Game With Pro Series Gloves" src="//dks.scene7.com/is/image/dksfed/GG2221_LP_CallawayEpicFlashTour_Background" />
+    <h3>Event Details</h3>
+    <p>From February 1 through June 15, Callaway is bringing the 2019 Epic Flash Tour to select Golf Galaxy stores</p>
 
     {% if data.sectionsActive %}
 
