@@ -1,2 +1,71 @@
-@import 'manifest';
+@import 'helpers/reset';
+@import 'helpers/vars';
+@import 'helpers/mixins';
+@import 'helpers/generics';
 
+body, html {
+    font-size: 10px,
+}
+
+body {
+    background: #000000 url('https://i.imgur.com/JiYLuj2.png');
+}
+
+p {
+    line-height: 1.6rem;
+    font-family: "DIN Light",sans-serif;
+    margin: 0;
+    font-size: 1rem;
+
+    @media (min-width: 769px) {
+        font-size: 1.3rem;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $bebas;
+}
+
+h1 {
+    font-size: 6rem;
+    line-height: 1;
+}
+
+ul {
+    font-family: "DIN Light",sans-serif; 
+}
+
+li, ol {
+    font-size: 1rem;
+    line-height: 1;
+
+    @media (min-width: 769px) {
+        font-size: 1.3rem;
+    }
+}
+
+strong {
+    font-family: "DIN Medium",sans-serif;
+}
+
+a {
+    color: $green;
+    text-decoration: none;
+
+    a:hover {
+        text-decoration: none;
+    }
+}
+
+i {
+    font-style: normal;
+}
+
+@import 'mini/logo';
+
+@import 'partials/header';
+@import 'partials/pidBlocks';
+@import 'partials/seriesBlocks';
+@import 'partials/extraInnings';
+@import 'partials/locations';
+@import 'partials/threeRowWLink';

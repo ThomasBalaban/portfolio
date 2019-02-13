@@ -53,7 +53,7 @@ $dsgWhite: white;
 $fallback: 'Arial Thin', 'Helvetica', 'Arial', sans-serif;
 $serif-fallback: 'Courier', 'Courier New', serif;
 
-$hind: 'Hind Siliguri', 'Arial', $fallback;
+$bebas: 'BebasNeueRegular', $fallback;
 $vitesse-thin: 'Vitesse Thin', $serif-fallback;
 $vitesse-light: 'Vitesse Light', $vitesse-thin;
 $vitesse-book: 'Vitesse Book', $vitesse-light;
@@ -62,18 +62,5 @@ $vitesse-bold: 'Vitesse Bold', $vitesse-medium;
 $vitesse-black: 'Vitesse Black', $vitesse-bold;
 
 // Colors
-$white: rgba(255, 255, 255, 1);
-
-$border-colors: ('white', 'red', 'green', 'blue', 'grey');
-
-$column-layout-max: 12;
-$column-gap: .5vw;
-
-@mixin column-width($columns, $padding) {
-	width: calc(#{($columns / $column-layout-max) * 100%} - (#{$padding * 2}));
-}
-
-@mixin column-margins($columns) {
-	margin-left: (($column-layout-max - $columns) / $column-layout-max) * 50%;
-	margin-right: (($column-layout-max - $columns) / $column-layout-max) * 50%;
-}
+$white: #ffffff;
+$green: #0db991;
