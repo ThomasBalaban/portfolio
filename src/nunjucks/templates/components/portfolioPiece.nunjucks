@@ -1,0 +1,14 @@
+{% macro piece(data, which) %} 
+    {% if data.portfolio %}
+        <div class="port-piece">
+            <div class="image">
+                <img src="{{data.portfolioPieces[which].backgroundImg }}" />
+                <div class="greybg"></div>
+                <h3>{{data.portfolioPieces[which].title }}</h3>
+            </div>
+            <div class="arrow">
+                <i class="fas fa-chevron-circle-right"></i>
+            </div>
+        </div>
+    {% endif %}
+{% endmacro %}

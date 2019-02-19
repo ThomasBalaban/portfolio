@@ -1,14 +1,7 @@
-<div class="header flex">
-    <img class="mobile" alt="Filder's Finest - Elevate Your Game With Pro Series Gloves" src="//dks.scene7.com/is/image/dksfed/GG2221_LP_mob_CallawayEpicFlashTour_Background" />
-    <img class="desktop" alt="Filder's Finest - Elevate Your Game With Pro Series Gloves" src="//dks.scene7.com/is/image/dksfed/GG2221_LP_CallawayEpicFlashTour_Background" />
-    <h3>Event Details</h3>
-    <p>From February 1 through June 15, Callaway is bringing the 2019 Epic Flash Tour to select Golf Galaxy stores</p>
-
-    {% if data.sectionsActive %}
-
-        {% include "./boxNav.nunjucks" %}
-
-        {% include "./dropdownNav.nunjucks" %}
-
-    {% endif %}
-</div>
+<nav>
+    <ul class="nav flex">
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Info</a></li>
+        <li><a href="#">Social</a></li>
+    </ul>
+</nav>

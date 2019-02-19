@@ -4,7 +4,8 @@
 @import 'helpers/generics';
 
 body, html {
-    font-size: 10px,
+    font-size: 10px;
+    height: 101%;
 }
 
 body {
@@ -12,14 +13,11 @@ body {
 }
 
 p {
-    line-height: 1.6rem;
-    font-family: "DIN Light",sans-serif;
+    line-height: 1.9;
+    font-family: $lato;
+    font-weight: 400;
     margin: 0;
-    font-size: 1rem;
-
-    @media (min-width: 769px) {
-        font-size: 1.3rem;
-    }
+    font-size: 1.6rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -32,7 +30,7 @@ h1 {
 }
 
 ul {
-    font-family: "DIN Light",sans-serif; 
+    font-family: $lato; 
 }
 
 li, ol {
@@ -61,11 +59,19 @@ i {
     font-style: normal;
 }
 
+section {
+    border-bottom: 2px solid $blue;
+    padding: 40px 0;
+}
+
 @import 'mini/logo';
 
+@import 'partials/intro';
 @import 'partials/header';
-@import 'partials/pidBlocks';
+@import 'partials/other';
+@import 'partials/footer';
 @import 'partials/seriesBlocks';
 @import 'partials/extraInnings';
 @import 'partials/locations';
+@import 'partials/portfolio';
 @import 'partials/threeRowWLink';

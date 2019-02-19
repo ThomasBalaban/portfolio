@@ -1,0 +1,40 @@
+.footer {
+    position: relative;
+    align-items: center;
+
+    h4 {
+        margin-top: 5px;
+        color: #ffffff;
+        font-size: 2rem;
+    }
+
+    .arrow {
+        position: absolute;
+        top: -20px;
+        border-top: 2px solid $blue;
+        color: $green;
+        font-size: 6rem;
+        background: #242424;
+        padding: 0 10px;
+        width: fit-content;
+    }
+
+    .logo {
+        width: 20%;
+        margin-top: 80px;
+
+        h3 {
+            font-size: 7rem;
+        }
+    }
+
+    .social {
+        margin: 10px 0 0;
+    }
+
+    p.copy {
+        margin: 30px 0 20px;
+        font-size: 1.2rem;
+        color: #ffffff;
+    }
+}

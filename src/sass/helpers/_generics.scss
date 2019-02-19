@@ -10,11 +10,10 @@
     }
 }
 
-
-.fa, .fab, .fal, .far, .fas {
-    font-family: FontAwesome;
+.--wrap {
+    max-width: 1000px;
+    margin: 0 auto;
 }
-
 
 .mobile {
     @media (min-width: 769px) {

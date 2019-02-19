@@ -1,36 +1,3 @@
-// Google Fonts
-$fontLato: 'Lato',
-sans-serif;
-$fontRoboto: 'Roboto',
-sans-serif;
-$fontRobotoCond: 'Roboto Condensed',
-sans-serif;
-$fontRobotoSlab: 'Roboto Slab',
-serif;
-$fontTeko: 'Teko',
-sans-serif;
-// DSG Fonts
-$fontDSGBlack: 'DSG Sans Black',
-sans-serif;
-$fontDSGBold: 'DSG Sans Bold',
-sans-serif;
-$fontDSGMedium: 'DSG Sans Medium',
-sans-serif;
-$fontDSGOutline: 'DSG Sans Outline',
-sans-serif;
-$fontDSGThin: 'DSG Sans Thin',
-sans-serif;
-$fontDSGUltra: 'DSG Sans Ultra',
-sans-serif;
-// DIN Fonts
-$fontDINBlack: 'DIN Black',
-sans-serif;
-$fontDINBold: 'DIN Bold',
-sans-serif;
-$fontDINLight: 'DIN Light',
-sans-serif;
-$fontDINMedium: 'DIN Medium',
-sans-serif;
 // Media Queries
 $desktop-xlarge: "min-width: 2000px";
 $desktop-large: "min-width: 1280px";
@@ -53,14 +20,10 @@ $dsgWhite: white;
 $fallback: 'Arial Thin', 'Helvetica', 'Arial', sans-serif;
 $serif-fallback: 'Courier', 'Courier New', serif;
 
+$lato: 'lato', $fallback;
 $bebas: 'BebasNeueRegular', $fallback;
-$vitesse-thin: 'Vitesse Thin', $serif-fallback;
-$vitesse-light: 'Vitesse Light', $vitesse-thin;
-$vitesse-book: 'Vitesse Book', $vitesse-light;
-$vitesse-medium: 'Vitesse Medium', $vitesse-book;
-$vitesse-bold: 'Vitesse Bold', $vitesse-medium;
-$vitesse-black: 'Vitesse Black', $vitesse-bold;
 
 // Colors
 $white: #ffffff;
 $green: #0db991;
+$blue: #3498db;

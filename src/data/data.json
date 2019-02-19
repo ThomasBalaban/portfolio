@@ -528,6 +528,38 @@
 					}
 				]
 			}
+		],
+
+		"portfolio": true,
+		"portfolioPieces": [
+			{
+				"backgroundImg": "https://i.imgur.com/YyXicLa.png",
+				"title": "PA Lottery",
+				"url": "http://lottersomething.com",
+				"tech": [
+					{
+						"list": [
+							"1",
+							"2",
+							"3"
+						]
+					}
+				]
+			},
+			{
+				"backgroundImg": "https://i.imgur.com/W0R1USR.png",
+				"title": "PA Lottery222",
+				"url": "http://lottersomething.com",
+				"tech": [
+					{
+						"list": [
+							"1",
+							"2",
+							"3"
+						]
+					}
+				]	
+			}
 		]
 	}
 }
