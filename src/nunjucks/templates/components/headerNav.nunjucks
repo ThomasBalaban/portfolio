@@ -1,7 +1,7 @@
 <nav>
     <ul class="nav flex">
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Info</a></li>
-        <li><a href="#">Social</a></li>
+        <li><a href="/portfolio">Portfolio</a></li>
+        <li><a href="/info">Info</a></li>
+        <li><a href="/social">Social</a></li>
     </ul>
 </nav>

@@ -5,6 +5,6 @@
 
 {% block mainContent %}
   <!-- BEGIN Management Center HTML -->
-  {% include "partials/mcContent.nunjucks" %}
+  {% include "page_templates/index.nunjucks" %}
   <!-- END Mangement Center HTML -->
 {% endblock %}

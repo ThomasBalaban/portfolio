@@ -1,0 +1,21 @@
+<footer>
+    <div class="footer --wrap --flex --between --column ">
+      <div class="arrow">
+        <i class="fas fa-angle-double-up"></i>
+      </div>
+
+      <div class="logo --flex --between">
+        <h3>TAB</h3>
+        <img src="https://i.imgur.com/AiQy0Bw.png" />
+      </div>
+
+      <h4>Tabs Not Spaces</h4>
+
+      <div class="social">
+        <img src="https://i.imgur.com/2hqOXPJ.png" />
+      </div>
+
+      <p class="copy">&copy; 2019 - Thomas Balaban</p>
+    </div>
+    
+  </footer>

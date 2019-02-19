@@ -46,7 +46,9 @@ module.exports = (requirements, config) => {
       ========================================================================= */
    gulp.task('renderHtmlDev', () => {
      // Gets .html and .nunjucks files in pages folder
-     return gulp.src(`${config.src}/nunjucks/pages/index.nunjucks`)
+     return gulp.src(  
+        `${config.src}/nunjucks/pages/**/*.nunjucks`
+      )
       .pipe(customPlumber("Error: HTML"))
       // Fill templates with json data
       .pipe(data(() => {

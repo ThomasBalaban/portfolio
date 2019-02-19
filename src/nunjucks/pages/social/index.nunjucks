@@ -8,7 +8,7 @@
 {% endblock header %}
 
 {% block mainContent %}
-  {% include "page_templates/index.nunjucks" %}
+  {% include "page_templates/social.nunjucks" %}
 {% endblock %}
 
 {% block footer %}

@@ -2,11 +2,13 @@
 
 <div class="container customFitting-page">
 
+
+
   {% include "../components/headerNav.nunjucks" %}
 
   <section class="intro">
     <div class="--wrap">
-    <h2>Hello!</h2>
+      <h2>portfolio </h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mauris ex, varius in ante non, aliquam gravida mi. Sed eget cursus augue. Morbi euismod porttitor mi nec pharetra. Quisque dui tellus, efficitur ac luctus nec, pulvinar eu enim. Quisque imperdiet tempor metus in lacinia. Vestibulum pulvinar eu lacus ac accumsan. Sed suscipit ante vel vehicula ornare.</p>
       <p>Duis vehicula diam ut lorem faucibus viverra id vitae eros. Fusce sed interdum justo, a elementum massa. Integer erat ligula, tristique in molestie vel, dictum sed justo. Nunc a facilisis nisi, vitae eleifend nisl. Maecenas tincidunt rhoncus sapien eget dapibus. Vivamus fringilla libero fermentum sagittis accumsan. Duis nec enim lacus. Integer nec tempor dui, quis tristique nisl. Phasellus dictum nisi varius, gravida erat at, sollicitudin augue. Donec semper commodo odio pharetra accumsan. Sed eget lectus non diam maximus luctus. Vivamus et quam sit amet justo commodo fermentum. Nam congue mauris non finibus malesuada. Nunc molestie quam augue, eget aliquam nisi pulvinar ac. Aliquam erat volutpat. Cras volutpat interdum tempus.</p>
     </div>

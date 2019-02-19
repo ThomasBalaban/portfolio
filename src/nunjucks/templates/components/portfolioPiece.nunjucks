@@ -5,6 +5,13 @@
                 <img src="{{data.portfolioPieces[which].backgroundImg }}" />
                 <div class="greybg"></div>
                 <h3>{{data.portfolioPieces[which].title }}</h3>
+                <div class="more-info">
+                    <p>more information</p>
+                </div>
+
+                <div class="information-drop">
+                    <h1>info drop bb</h1>
+                </div>
             </div>
             <div class="arrow">
                 <i class="fas fa-chevron-circle-right"></i>

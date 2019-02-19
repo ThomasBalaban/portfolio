@@ -41,9 +41,21 @@
             transform: translate(50%,-50%);
         }
     }
+
+    .more-info {
+        background: #ffffff;
+        position: absolute;
+        color: $green;
+        top: 0;
+    }
+
     .port-piece {
         position: relative;
         display: flex;
         flex-direction: row;
+    }
+
+    .information-drop {
+        display: none;
     }
 }

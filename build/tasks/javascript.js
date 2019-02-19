@@ -1,8 +1,5 @@
 // ---- includes
 
-// for linting js files - with some custom linting options
-const jshint = require('gulp-jshint');
-
 // for concatenating 2+ js files together.
 const concat = require('gulp-concat');
 
@@ -30,9 +27,6 @@ module.exports = (requirements, config) => {
   gulp.task('js', () => {
       return gulp.src(`${config.src}/js/*.js`)
           .pipe(customPlumber("Error: JS"))
-          .pipe(jshint())
-          .pipe(jshint.reporter('default'))
-          .pipe(jshint.reporter('fail'))
           .pipe(concat('bundle.js'))
           .pipe(uglify())
           .pipe(gulp.dest(config.tmp))

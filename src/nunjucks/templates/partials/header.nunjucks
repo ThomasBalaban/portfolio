@@ -2,7 +2,7 @@
 
     <div class="logo --flex --between">
         <h3>TAB</h3>
-        <img src="https://i.imgur.com/AiQy0Bw.png" />
+        <a href="/" title="home"><img src="https://i.imgur.com/AiQy0Bw.png" /></a>
     </div>
 
     <h1><a href="/" title="home">Thomas A Balaban</a></h1>
