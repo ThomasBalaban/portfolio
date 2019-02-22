@@ -18,56 +18,12 @@
     <div class="--wrap --flex --between">
       {{ portfolioPiece.piece(data, 0) }}
       {{ portfolioPiece.piece(data, 1) }}
+      {{ portfolioPiece.piece(data, 2) }}
+      {{ portfolioPiece.piece(data, 3) }}
+      {{ portfolioPiece.piece(data, 4) }}
+      {{ portfolioPiece.piece(data, 5) }}
+      {{ portfolioPiece.piece(data, 6) }}
+      {{ portfolioPiece.piece(data, 7) }}
     </div>
   </section>
-
-  <section class="other">
-    <div class="other --wrap --flex --between">
-      <h3>Other Companies</h3>
-      <img src="https://i.ytimg.com/vi/AfdR003knes/hqdefault.jpg"/>
-      <img src="https://i.ytimg.com/vi/AfdR003knes/hqdefault.jpg"/>
-      <img src="https://i.ytimg.com/vi/AfdR003knes/hqdefault.jpg"/>
-      <img src="https://i.ytimg.com/vi/AfdR003knes/hqdefault.jpg"/>
-    </div>
-  </section>
-
-  <footer>
-    <div class="footer --wrap --flex --between --column ">
-      <div class="arrow">
-        <i class="fas fa-angle-double-up"></i>
-      </div>
-
-      <div class="logo --flex --between">
-        <h3>TAB</h3>
-        <img src="https://i.imgur.com/AiQy0Bw.png" />
-      </div>
-
-      <h4>Tabs Not Spaces</h4>
-
-      <div class="social">
-        <img src="https://i.imgur.com/2hqOXPJ.png" />
-      </div>
-
-      <p class="copy">&copy; 2019 - Thomas Balaban</p>
-    </div>
-    
-  </footer>
 </div>
-
-<script>
-
-$('.series .center').on('click',function(){
-    console.log(this);
-    console.log($(this).parent().find(".information"));
-    $(this).parent().find(".information").toggle();
-
-    if( $(this).find('i').hasClass('fa-angle-down') ) {
-      $(this).find('i').addClass('fa-angle-up');
-      $(this).find('i').removeClass('fa-angle-down');
-    } else {
-      $(this).find('i').addClass('fa-angle-down');
-      $(this).find('i').removeClass('fa-angle-up');
-    }
-});
-
-</script>

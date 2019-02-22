@@ -1,561 +1,136 @@
 {
 	"data": {
-		"sectionsActive": false,
-		"section": [
-			{
-				"id": "wilsonA2K",
-				"title": "Wilson A2K",
-				"regTrademark": true,
-				"heroImage": "WilsonA2K_Feature",
-				"imageSide": "right",
-				"list": [
-					{
-						"listitem": [
-							"Top 5% Pro Stock™ Steerhide Material",
-							"Select Styles Integrated with SuperSkin™ Material",
-							"Double Palm Construction"
-						]
-					}
-				],
-				"paragraph": "Wilson’s most premium glove, the A2K is carefully hand shaped and crafted with the finest cuts of material to break in without breaking down. A triple sorting process ensures each glove is made with the top 5% of Pro Stock hides. A2K gloves also feature a Double Palm Construction and Rolled Dual Welting™ for maximum stability and shape retention. Select A2K styles are integrated with exclusive SuperSkin™ material, which is twice as strong as cowhide at only half the weight."
-			},
-
-			{
-				"id": "wilsonA2000",
-				"title": "Wilson A2000",
-				"regTrademark": true,
-				"heroImage": "WilsonA2000_Feature",
-				"imageSide": "left",
-				"list": [
-					{
-						"listitem": [
-							"American Pro Stock™ Steerhide Material",
-							"Select Styles Integrated with SuperSkin™ Material",
-							"Dri-Lex™ Wrist Lining"
-
-						]
-					}
-				],
-				"paragraph": "Chosen for its durable materials and solid break-in time, A2000 gloves boast top-level consistency with pro-inspired patterns. Designed with American Pro Stock steerhide material, breathable Dri-Lex wrist lining and Dual Welting™, each glove provides quality support and comfort to give you the upper hand on the field. Select A2000 styles are integrated with exclusive SuperSkin™ material, which is twice as strong as cowhide at only half the weight."
-			},
-			
-			{
-				"id": "rawlingsHeartoftheHide",
-				"title": "Rawlings Heart of the Hide",
-				"regTrademark": true,
-				"heroImage": "RawlingsHOH_Feature",
-				"imageSide": "right",
-				"list": [
-					{
-						"listitem": [
-							"Top 5% Leather",
-							"Shorter Break-In Period",
-							"Full-Grain Fingerback Linings"
-							
-
-						]
-					}
-				],
-				"paragraph": "Rawlings Heart of the Hide serves as the foundation for advanced player performance while delivering a shorter break-in period. Each HOH glove is carefully constructed from the top 5% of hides available and integrates full-grain fingerback linings for a premium feel."
-			},
-
-			{
-				"id": "rawlingsProPreferred",
-				"title": "Rawlings Pro Preferred",
-				"regTrademark": true,
-				"heroImage": "RawlingsProPref_Feature",
-				"imageSide": "left",
-				"list": [
-					{
-						"listitem": [
-							"Kip Leather Look & Feel",
-							"Pittards® Sheepskin Palm Lining",
-							"100% Wool Padding"
-
-						]
-					}
-				],
-				"paragraph": "The signature Kip-leather look and feel of Rawlings Pro Preferred gloves place them in the upper level of fielding performance. These gloves are designed with professional patterns used by the game’s finest and feature Pittards sheepskin palm lining and 100% wool padding to maximize comfort."
-			},
-
-			{
-				"id": "rawlingsGoldGlove",
-				"title": "Rawlings Gold Glove",
-				"regTrademark": true,
-				"heroImage": "RawlingsGoldGlove_Feature",
-				"imageSide": "right",
-				"list": [
-					{
-						"listitem": [
-							"Flawless, European Leather",
-							"Meticulously Assembled by a Single Craftsman",
-							"Individual Serial Number for Authentication"
-
-						]
-					}
-				],
-				"paragraph": "Setting the bar for Rawlings pro series gloves, the Gold Glove represents more than 100 years of superior craftsmanship. Every Gold Glove is meticulously cut, assembled and sewn, start to finish, by a single craftsman and includes an individual serial number with the maker, date created and production number. Gold Gloves are made with top-of-the-line European leather, famous for its supple feel and durable finish. The calfskin palm lining helps reduce moisture during play."
-			},
-
-			{
-				"id": "mizunoProSeries",
-				"title": "Mizuno Pro™ Series ",
-				"regTrademark": false,
-				"heroImage": "Mizuno_Feature",
-				"imageSide": "left",
-				"list": [
-					{
-						"listitem": [
-							"Limited Edition, Pro & Pro Select Styles",
-							"Finest Quality Materials, Handcrafted for Excellence",
-							"Designs & Pockets Tailored for Every Position"
-							
-						]
-					}
-				],
-				"paragraph": "The Mizuno Pro series features the highest quality leather and raw materials from around the globe. Designed by master craftsmen, the Pro series is available in three designs. <strong>Pro Series Limited Edition</strong> gloves feature the finest cuts of European leather and are handcrafted in Haga, Japan. Regarded as the finest ball glove leather available, each LE glove comes with a manufacturer reconditioning program that offers a one-time opportunity to restore it to its original condition. <strong>Pro Series</strong> gloves are handcrafted with a perfectly preformed pocket based on the needs of each position. They are designed with US Kip leather that offers a soft, firm feel that holds up at the highest levels of play. <strong>Pro Select Series</strong> gloves are made with US Steerhide leather for a firm, durable feel that forms to the hand once broken in."
-			},
-
-			{
-				"id": "nokonaClassicWalnut",
-				"title": "Nokona Classic Walnut™ ",
-				"regTrademark": false,
-				"heroImage": "NokonaWalnut_Feature",
-				"imageSide": "right",
-				"list": [
-					{
-						"listitem": [
-							"Top-Grain Walnut Crunch™ Leather",
-							"Premium Handcrafting",
-							"Minimal Break-In Needed"
-						]
-					}
-				],
-				"paragraph": "Nokona is applauded for its quality and revered for its long-standing heritage. Classic Walnut gloves undergo the same handcrafting process that has kept this brand at the top of the game for more than 80 years. Proudly American made, each glove features top-grain steerhide leather and is individually cut, stamped, stitched, laced and embroidered for a truly unique experience on the field."
-			}
-		],
-
-
-		"pidsActive": false,
-		"pids": [
-			{
-				"pid": [
-					{
-						"image": "A2K_11.5",
-						"title": "Wilson 11.5’’ A2K SuperSkin Series 1786 Glove 2019",
-						"price": "$359.99",
-						"url": "/p/wilson-11-5-a2k-superskin-series-1786-glove-2019-18wila2k1786115fbbgl/18wila2k1786115fbbgl?",
-						"shopAll": "Shop All Wilson A2K",
-						"shopAllLink": "/f/wilson-a2k-series-gloves"
-					},
-					{
-						"image": "A2K_11.75",
-						"title": "Wilson 11.75’’ A2K SuperSkin Series 1787 Glove 2019",
-						"price": "$359.99",
-						"url": "/p/wilson-11-75-a2k-superskin-series-1787-glove-2019-18wila2k17871175fbgl/18wila2k17871175fbgl?"
-					},
-					{
-						"image": "A2K_12",
-						"title": "Wilson 12’’ A2K SuperSkin Series B212 Glove 2019",
-						"price": "$359.99",
-						"url": "/p/wilson-12-a2k-superskin-series-b212-glove-2019-18wila2kb21212blkbgl/18wila2kb21212blkbgl?"
-					},
-					{
-						"image": "A2K_12.5",
-						"title": "Wilson 12.5’’ A2K SuperSkin Series 1617 First Base Mitt 2019",
-						"price": "$359.99",
-						"url": "/p/wilson-12-5-a2k-superskin-series-1617-first-base-mitt-2019-18wila2k1617fbblkfbm/18wila2k1617fbblkfbm?"	
-					},
-					{
-						"image": "A2K_33.5",
-						"title": "Wilson 33.5'' M1 A2K Series Catcher’s Mitt",
-						"price": "$359.99",
-						"url": "/p/wilson-33-5-m1-a2k-series-catchers-mitt-17wila335cm2kblkcbgl/17wila335cm2kblkcbgl?"	
-					}
-				]
-			},
-
-			{
-				"pid": [
-					{
-						"image": "A2000_11.5",
-						"title": "Wilson 11.5’’ A2000 1786 Glove 2019",
-						"price": "$259.99",
-						"url": "/p/wilson-11-5-1786-a2000-series-glove-2019-18wila11520001786bgl/18wila11520001786bgl?",
-						"shopAll": "Shop All Wilson A2000",
-						"shopAllLink": "/f/wilson-a2000-pro-series-gloves"
-					},
-					{
-						"image": "A2000_33.5",
-						"title": "Wilson 33.5’’ A2000 SuperSkin Series Catcher’s Mitt 2019",
-						"price": "$259.99",
-						"url": "/p/wilson-33-5-a2000-superskin-series-catchers-mitt-2019-18wila2000335cmblctm/18wila2000335cmblctm"
-					},
-					{
-						"image": "A2000_11.75",
-						"title": "Wilson 11.75’’ Dustin Pedroia A2000 SuperSkin Series DP15 Glove 2019",
-						"price": "$259.99",
-						"url": "/p/wilson-11-75-dustin-pedroia-a2000-superskin-series-dp15-glove-2019-18wila2000dp15117bgl/18wila2000dp15117bgl?"
-					},
-					{
-						"image": "A2000_12",
-						"title": "Wilson 12” MC24 Miguel Cabrera A2000 Series First Base Mitt",
-						"price": "$259.99",
-						"url": "/p/wilson-12-mc24-miguel-cabrera-a2000-series-first-base-mitt-16wila2000cbrr1b2fbm/16wila2000cbrr1b2fbm?"	
-					},
-					{
-						"image": "A2000_12.75",
-						"title": "Wilson 12.75'' OT6 A2000 SuperSkin Series Glove",
-						"price": "$259.99",
-						"url": "/p/wilson-12-75-ot6-a2000-superskin-series-glove-17wila12752000ssbbgl/17wila12752000ssbbgl?"	
-					}
-				]
-			},
-
-			{
-				"pid": [
-					{
-						"image": "HOTH_12.75",
-						"title": "Rawlings 12.75’’ Bryce Harper HOH R2G Series Glove 2019",
-						"price": "$259.99",
-						"url": "/p/rawlings-12-75-bryce-harper-hoh-r2g-series-glove-2019-18rawahhr2g1275hwbgl/18rawahhr2g1275hwbgl?",
-						"shopAll": "Shop All Rawlings Heart Of The Hide",
-						"shopAllLink": "/f/rawlings-hoh-series-pro-gloves"
-					},
-					{
-						"image": "HOTH_12.5",
-						"title": "Rawlings 12.5’’ HOH Series First Base Mitt",
-						"price": "$259.99",
-						"url": "/p/rawlings-12-5-hoh-series-first-base-mitt-17rawa1251bmtthhbfbm/17rawa1251bmtthhbfbm?"
-					},
-					{
-						"image": "HOTH_11.5",
-						"title": "Rawlings 11.5’’ HOH Series Glove 2019",
-						"price": "$259.99",
-						"url": "/p/rawlings-11-5-hoh-series-glove-2019-18rawahh115fbrwnrbgl/18rawahh115fbrwnrbgl"
-					},
-					{
-						"image": "HOTH_11.75",
-						"title": "Rawlings 11.75'' HOH Series Glove",
-						"price": "$259.99",
-						"url": "/p/rawlings-11-75-hoh-series-glove-17rawa1175hhgrymrbgl/17rawa1175hhgrymrbgl?"	
-					},
-					{
-						"image": "HOTH_12",
-						"title": "Rawlings 12’’ HOH Series Glove 2019",
-						"price": "$259.99",
-						"url": "/p/rawlings-12-hoh-series-glove-2019-18rawahh12ftnrht1bgl/18rawahh12ftnrht1bgl?"	
-					}
-				]
-			},
-
-			{
-				"pid": [
-					{
-						"image": "ProPref_11.5",
-						"title": "Rawlings 11.5’’ Pro Preferred Series Glove 2019",
-						"price": "$359.99",
-						"url": "/p/rawlings-11-5-pro-preferred-series-glove-2019-18rawa115prprfcmlbgl/18rawa115prprfcmlbgl?",
-						"shopAll": "Shop All Rawlings Pro Preferred",
-						"shopAllLink": "/f/rawlings-pro-preferred-series-gloves"
-					},
-					{
-						"image": "ProPref_11.75",
-						"title": "Rawlings 11.75’’ Pro Preferred Series Glove 2019",
-						"price": "$359.99",
-						"url": "/p/rawlings-11-75-pro-preferred-series-glove-2019-18rawa19prprf1175bgl/18rawa19prprf1175bgl?"
-					},
-					{
-						"image": "ProPref_13",
-						"title": "Rawlings 13’’ Pro Preferred Series First Base Mitt 2019",
-						"price": "$359.99",
-						"url": "/p/rawlings-13-pro-preferred-series-first-base-mitt-2019-18rawa1bprprf2019fbm/18rawa1bprprf2019fbm?"
-					},
-					{
-						"image": "ProPref_12.25",
-						"title": "Rawlings 12.25’’ Kris Bryant Pro Preferred Series Glove 2019",
-						"price": "$359.99",
-						"url": "/p/rawlings-12-25-kris-bryant-pro-preferred-series-glove-2019-18rawaprprf1225blbgl/18rawaprprf1225blbgl?"	
-					},
-					{
-						"image": "ProPref_12.75",
-						"title": "Rawlings 12.75’’ Mike Trout Pro Preferred Series Glove 2019",
-						"price": "$359.99",
-						"url": "/p/rawlings-12-75-mike-trout-pro-preferred-series-glove-2019-18rawa2019prprftrbgl/18rawa2019prprftrbgl?"	
-					}
-				]
-			},
-
-			{
-				"pid": [
-					{
-						"image": "GoldGlove_11.75",
-						"title": "Rawlings 11.75\" Gold Glove Series Glove",
-						"price": "$499.99",
-						"url": "/p/rawlings-11-75-gold-glove-series-glove-16rawa1175gldglvbbgl/16rawa1175gldglvbbgl",
-						"shopAll": "Shop All Rawlings Gold Glove",
-						"shopAllLink": "/f/rawlings-gold-glove-series-baseball-gloves"	
-					},
-					{
-						"image": "GoldGlove_11.75_Brwn",
-						"title": "Rawlings 11.75\" Gold Glove Series Glove 2019",
-						"price": "$499.99",
-						"url": "/p/rawlings-11-75-gold-glove-series-2019-18rawagg1175fbrwnbgl/18rawagg1175fbrwnbgl"
-					},
-					{
-						"image": "GoldGlove_12.75",
-						"title": "Rawlings 12.75'' Gold Glove Series Glove",
-						"price": "$499.99",
-						"url": "/p/rawlings-12-75-gold-glove-series-glove-16rawa1275gldglvbbgl/16rawa1275gldglvbbgl"
-					},
-					{
-						"image": "GoldGlove_12.75_2019",
-						"title": "Rawlings 12.75'' Gold Glove Series Glove 2019",
-						"price": "$499.99",
-						"url": "/p/rawlings-12-75-gold-glove-series-2019-18rawa2019gldglv1bgla/18rawa2019gldglv1bgla"	
-					},
-					{
-						"image": "GoldGlove_11.75_2019",
-						"title": "Rawlings 11.75'' Gold Glove Series Glove 2019",
-						"price": "$499.99",
-						"url": "/p/rawlings-11-75-gold-glove-series-2019-18rawa2019gldglv1bgl/18rawa2019gldglv1bgl"	
-					}
-				]
-			},
-
-			{
-				"pid": [
-					{
-						"image": "MizunoPro_11.5",
-						"title": "Mizuno 11.5'' Pro LE Series Glove",
-						"price": "$599.99",
-						"url": "/p/mizuno-11-5-pro-series-glove-17miza115mznprcntbgl/17miza115mznprcntbgl?",
-						"shopAll": "Shop All Mizuno Pro Series",
-						"shopAllLink": "/f/mizuno-pro-series-gloves"
-					},
-					{
-						"image": "MizunoPro_11.75",
-						"title": "Mizuno 11.75'' Pro Series Glove",
-						"price": "$349.99",
-						"url": "/p/mizuno-11-75-pro-series-glove-17miza1175mzprblnbgla/17miza1175mzprblnbgla"
-					},
-					{
-						"image": "MizunoPro_12.75",
-						"title": "Mizuno 12.75'' Pro Series Glove",
-						"price": "$349.99",
-						"url": "/p/mizuno-12-75-pro-series-glove-17miza1275mzprblnbgl/17miza1275mzprblnbgl?"
-					},
-					{
-						"image": "MizunoPro_12.75_Chestnut",
-						"title": "Mizuno 12.75’’ Pro LE Series",
-						"price": "$599.99",
-						"url": "/p/mizuno-12-75-pro-series-glove-17mizamznpr1275chbgl/17mizamznpr1275chbgl?"
-					},
-					{
-						"image": "MizunoPro_12",
-						"title": "Mizuno 12’’ Pro Series Glove",
-						"price": "$349.99",
-						"url": "/p/mizuno-12-pro-series-glove-17miza12mzprblndbbgl/17miza12mzprblndbbgl?"	
-					}
-				]
-			},
-
-			{
-				"pid": [
-					{
-						"image": "Nokona_11.5",
-						"title": "Nokona 11.5\" Classic Walnut Series Glove",
-						"price": "$249.99",
-						"url": "/p/nokona-11-5-classic-walnut-series-glove-16noka115clsscwlnbgla/16noka115clsscwlnbgla",
-						"shopAll": "Shop All Nokona Classic Walnut",
-						"shopAllLink": "/f/nokona-classic-walnut-series-gloves"
-					},
-					{
-						"image": "Nokona_11.75",
-						"title": "Nokona 11.75'' Classic Walnut Series Glove",
-						"price": "$249.99",
-						"url": "/p/nokona-11-75-classic-walnut-series-glove-17nokawlnt1175xxxbgl/17nokawlnt1175xxxbgl"
-					},
-					{
-						"image": "Nokona_12",
-						"title": "Nokona 12\" Classic Walnut Series Glove",
-						"price": "$249.99",
-						"url": "/p/nokona-12-classic-walnut-series-glove-16noka12clsscwlntbgla/16noka12clsscwlntbgla"
-					},
-					{
-						"image": "Nokona_12.75",
-						"title": "Nokona 12.75\" Classic Walnut Series Glove",
-						"price": "$249.99",
-						"url": "/p/nokona-12-75-classic-walnut-series-glove-16noka1275clsscwlbgla/16noka1275clsscwlbgla"	
-					},
-					{
-						"image": "Nokona_13",
-						"title": "Nokona 13\" Classic Walnut Series Glove",
-						"price": "$249.99",
-						"url": "/p/nokona-13-classic-walnut-series-glove-16noka13clsscwlntbgla/16noka13clsscwlntbgla"	
-					}
-				]
-			}
-		],
-
-		"extraInActive": false,
-		"extraInnings": [
-			{
-				"blocks": [
-					{
-						"img": "ExtraInnings_ProSeries",
-						"link": "/f/pro-series-baseball-gloves",
-						"text": "Shop All Pro Series Gloves"
-					},
-					{
-						"img": "ExtraInnings_GloveAccessories",
-						"link": "/f/baseball-softball-all-glove-accessories",
-						"text": "Shop Glove Accessories"
-					},
-					{
-						"img": "ExtraInnings_GloveServices",
-						"link": "/s/baseball-softball-services",
-						"text": "View Glove Services"
-					}
-				]
-			}
-		],
-
-		"threeCallOutWithLink": true,
-		"threeCallOuts": [
-			{
-				"linkText": "Shop Epic Flash",
-				"linkAddress": "/f/callaway-epic-flash-family",
-				"callouts": [
-					{
-						"text": "Get a FREE 30-minute fitting by a Callaway Rep-Callaway will have a fitting simulator and hitting bays set up to a custom fit your game"
-					},
-					{
-						"text": "Check out the new Callaway Stroke Lab putters on the Callaway outdoor putting green"
-					},
-					{
-						"text": "Receive a 50% Callaway Loyalty Bonus towards your EPIC Flash, Apex, or Big Bertha purchase"
-					}
-				]
-			}
-		],
-
-		"tourLocationActive": true,
-		"tourLocations": [
-			{
-				"title": "Tour Locations & Dates",
-				"subTitle": "Find an event in your area",
-				"e": [
-					{
-						"locations": "Orlando, FL",
-						"date": "February 1 - 2"
-					},
-					{
-						"locations": "Sarasota, FL",
-						"date": "February 8 - 9"
-					},
-					{
-						"locations": "Naples, FL",
-						"date": "February 15 - 16"
-					},
-					{
-						"locations": "Fort Myers, FL",
-						"date": "February 22 - 23"
-					},
-					{
-						"locations": "Baybrook, TX",
-						"date": "March 1 - 2"
-					},
-					{
-						"locations": "San Antonio, TX",
-						"date": "March 8 - 9"
-					},
-					{
-						"locations": "Austim Arboretum, TX",
-						"date": "March 15 - 16"
-					},
-					{
-						"locations": "Grapvine, TX",
-						"date": "March 22 - 23"
-					},
-					{
-						"locations": "Oklahoma City, OK",
-						"date": "March 29 - 30"
-					},
-					{
-						"locations": "Englewood, CO",
-						"date": "April 5 - 6"
-					},
-					{
-						"locations": "Loveland, CO",
-						"date": "April 12 - 13"
-					},
-					{
-						"locations": "Overland Park, KS",
-						"date": "April 19 - 20"
-					},
-					{
-						"locations": "West Des Moines, IA",
-						"date": "April 26 - 27"
-					},
-					{
-						"locations": "Richfield, MN",
-						"date": "May 3 - 4"
-					},
-					{
-						"locations": "Brookfield, WI",
-						"date": "May 10 - 11"
-					},
-					{
-						"locations": "Lakeside, MI",
-						"date": "May 17 - 18"
-					},
-					{
-						"locations": "Castleton, IN",
-						"date": "May 24 - 25"
-					},
-					{
-						"locations": "Columbus (Easton), OH",
-						"date": "May 31 - June 1"
-					},
-					{
-						"locations": "Pittsburgh, PAL",
-						"date": "June 7 - 8"
-					},
-					{
-						"locations": "Devon, PA",
-						"date": "June 14 - 15"
-					}
-				]
-			}
-		],
 
 		"portfolio": true,
 		"portfolioPieces": [
 			{
 				"backgroundImg": "https://i.imgur.com/YyXicLa.png",
-				"title": "PA Lottery",
-				"url": "http://lottersomething.com",
+				"title": "Fred Rogers",
+				"url": "https://www.fredrogers.org/",
+				"story": "A project close to my heart, I had grown up on Fred Rogers the same as everyone in my generation! When we got the project, I got to meet the lead of his brand, and work with them on a design. After the design was completed I had built components requiring JavaScript to ensure their design needs were met. I built the rest of the site and implemented my JavaScript solutions, building the store with Drupal as they asked for easy continuous support. ",
 				"tech": [
 					{
 						"list": [
-							"1",
-							"2",
-							"3"
+							"Drupal",
+							"CSS",
+							"HTML",
+							"Video",
+							"Javascript"
 						]
 					}
 				]
 			},
 			{
 				"backgroundImg": "https://i.imgur.com/W0R1USR.png",
-				"title": "PA Lottery222",
-				"url": "http://lottersomething.com",
+				"title": "PA Lottery",
+				"url": "https://www.palottery.state.pa.us/",
+				"story": "The PA Lottery was built before I was brought on, however the amount of legacy code and outdated or broken CSS was something we had to find solutions for. I have been a part of the team pushing forward on cleaning it up and making the site more maintainable for what surely will be an ever-growing web presence. I have made JavaScript solutions to solve various issues – some involving API calls, some detecting types of content and amount and updating its styles from there, all to make sure the site is ready to produce and show new marketing as needed. Marketing on the site updates on strict schedules, and sometimes rather suddenly, requiring clean solutions to make sure it is ready to go and update as needed with the least amount of downtime. <br /> Along with full time support of the website, I have also created marketing emails, and an automated Style Guide that is ran by Handlebars.js to ensure that the future solutions can be as clean as possible. Using the Style Guide has led to massive improvements of development time to handle the ongoing revamp and rebuilds of the site and components!",
 				"tech": [
 					{
 						"list": [
-							"1",
-							"2",
-							"3"
+							"SASS",
+							"Javascript",
+							"Ajax",
+							"Emails",
+							"Handlebars"
+						]
+					}
+				]	
+			},
+			{
+				"backgroundImg": "https://i.imgur.com/eEli9ED.png",
+				"title": "Women of color network",
+				"url": "http://www.wocninc.org/",
+				"story": "Foundations supporting the communities trying to escape violence and trying to help those in need hold a special place in my heart. When we were approached by the WOCN to develop their new site we took it without a second though! They already had a design and the content prepared from another group, we took that content and found a solution for it within WordPress that way the site could receive continuous updates from them as needed. I developed a WordPress template, and found the proper plugins to help them reach their goal! Has been redesigned since we took on the project.",
+				"tech": [
+					{
+						"list": [
+							"Wordpress",
+							"PHP",
+							"CSS",
+							"HTML"
+						]
+					}
+				]	
+			},
+			{
+				"backgroundImg": "https://i.imgur.com/8wNYimD.png",
+				"title": "Mylan",
+				"url": "http://www.mylan.com/",
+				"story": "At my time at Ciber, I was full time supporting Mylan’s projects. At the time they had an English website and that was needing a solution to move the websites design to support other languages. I helped them reach that goal by making solutions and choices with a small team of designers and backend architects. After the creation of a template that would support other languages, we implemented the HTML into SiteCore. After the creation of several languages, I had gone through and revamped mobile to ensure it could outreach to the maximum amount of people.",
+				"tech": [
+					{
+						"list": [
+							"SiteCore",
+							"CSS",
+							"HTML",
+							"ASP.Net / MVC",
+							"Javascript"
+						]
+					}
+				]	
+			},
+			{
+				"backgroundImg": "https://i.imgur.com/U0wCpZb.png",
+				"title": "Epipen",
+				"url": "https://www.epipen.com/en",
+				"story": "After helping support and create solutions for Mylan.com I was asked to help support EpiPen, Mylan’s leading product. A backend was created along with templates at this point of the projects life, I helped the team get to the finish line by fixing and creating new JavaScript solutions connecting to the back-end API. I helped and gave continuous support helping them create a mobile solution for maximum customer help!",
+				"tech": [
+					{
+						"list": [
+							"Sitecore",
+							"CSS",
+							"Javascript",
+							"Ajax",
+							"HTML",
+							"ASP.Net / MVC",
+							"Entity Framework"
+						]
+					}
+				]	
+			},
+			{
+				"backgroundImg": "https://i.imgur.com/Z3G43uL.png",
+				"title": "United Refactories Co",
+				"url": "https://urc4u.com/",
+				"story": "At the beginning of my time at the Agency that created the URC website I was tasked to wrap up the project. I went through and improved the SEO in the WordPress side of things and cleaned up and condensed the CSS to increase load times.",
+				"tech": [
+					{
+						"list": [
+							"CSS",
+							"HTML",
+							"Javascript"
+						]
+					}
+				]	
+			},
+			{
+				"backgroundImg": "https://i.imgur.com/IQFAN0l.png",
+				"title": "Center Rock",
+				"url": "https://centerrock.com/",
+				"story": "This was my first project as an intern, and my first ‘real life’ experience with web development. Our agency chose to use WordPress due to the updating nature of the company with products, offers, news, and services. I created the original WordPress site using a pre-existing template and grabbing plugins that were needed to get a rough draft done. After the initial rough draft was complete, I had gone and cleaned up parts of the JavaScript, CSS, and the PHP that were from the template and plugins to match the client approved designs. It was a great way to hit the ground running!",
+				"tech": [
+					{
+						"list": [
+							"Wordpress",
+							"PHP",
+							"CSS",
+							"HTML",
+							"Javascript"
+						]
+					}
+				]	
+			},
+			{
+				"backgroundImg": "https://i.imgur.com/wJyOWNs.png",
+				"title": "Wabtec",
+				"url": "https://www.wabtec.com/",
+				"story": "A short project, but a unique one for me! An early stage of my career, Wabtec had requested our Agency to create wireframes considering for all their regional location sites, which was roughly 100 or so. I went through, found the common and necessary parts of each site and created a wireframe to allow them to move forward with a solution based upon that wireframe. Soon after that I implemented a solution for 3D viewing on some of their tools based on JavaScript.",
+				"tech": [
+					{
+						"list": [
+							"Wireframe",
+							"Javascript"
 						]
 					}
 				]	

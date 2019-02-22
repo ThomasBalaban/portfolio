@@ -12,7 +12,7 @@
     </div>
   </section>
  
-  <section class="portfolio">
+  <section class="portfolio --home">
     <div class="--wrap --flex --between">
       {{ portfolioPiece.piece(data, 0) }}
       {{ portfolioPiece.piece(data, 1) }}
@@ -23,16 +23,16 @@
     <div class="other --wrap --flex --between">
       <h3>Other Companies</h3>
       <div>
-        <img src="https://i.ytimg.com/vi/AfdR003knes/hqdefault.jpg"/>
+        <img src="https://i.imgur.com/boB6HtY.png"/>
       </div>
       <div>
-        <img src="https://i.ytimg.com/vi/AfdR003knes/hqdefault.jpg"/>
+        <img src="https://i.imgur.com/sStj1tX.png"/>
       </div>
       <div>
-        <img src="https://i.ytimg.com/vi/AfdR003knes/hqdefault.jpg"/>
+        <img src="https://i.imgur.com/16C83gw.png"/>
       </div>
       <div>
-        <img src="https://i.ytimg.com/vi/AfdR003knes/hqdefault.jpg"/>
+        <img src="https://i.imgur.com/z3WvAjP.png"/>
       </div>
     </div>
   </section>

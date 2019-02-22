@@ -10,7 +10,13 @@
                 </div>
 
                 <div class="information-drop">
-                    <h1>info drop bb</h1>
+                    <h3>---{{data.portfolioPieces[which].title }}</h3>
+                    <ul>
+                        {% for i in data.portfolioPieces[which].tech[0].list %}
+                            <li>{{i}}</li>
+                        {% endfor %}
+                    </ul>
+                    <p>{{data.portfolioPieces[which].story}}</p>
                 </div>
             </div>
             <div class="arrow">

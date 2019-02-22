@@ -1,7 +1,21 @@
 .portfolio {
+    > div {
+        flex-wrap: wrap;
+    }
+
+    &.--home {
+        .port-piece {
+            margin-bottom: 0;
+        }
+    }
     
     .port-piece {
         width: 45%;
+        margin-bottom: 40px;
+
+        &:nth-child(7), &:nth-child(8) {
+            margin-bottom: 0;
+        }
     }
 
     .arrow {
