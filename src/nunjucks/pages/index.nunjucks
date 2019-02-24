@@ -3,10 +3,6 @@
 
 {% import 'globals.nunjucks' as globals %}
 
-{% block header %}
-  {% include "partials/header.nunjucks" %}
-{% endblock header %}
-
 {% block mainContent %}
   {% include "page_templates/index.nunjucks" %}
 {% endblock %}

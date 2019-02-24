@@ -1,9 +1,46 @@
 .intro {
-    background: #ffffff;
+    background: $white;
     padding: 40px;
 
+    &.-home {
+        background: $blue;
+        padding: 40px;
+    }
+
     h2 {
+        font-size: 8rem;
+        margin: 0 0 10px;
+    }
+
+    h3 {
         font-size: 4rem;
         margin: 0 0 10px;
+    }
+
+    .about {
+        margin-bottom: 40px;
+        background: #fbfbfb;
+        border: 2px solid #eaeaea;
+        padding: 40px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        > div {
+            width: 35%;
+
+            img {
+                width: 100%;
+            }
+
+            &:last-child {
+                width: 55%;
+            }
+        }
+    }
+
+    &.story {
+        background: $white;
     }
 }

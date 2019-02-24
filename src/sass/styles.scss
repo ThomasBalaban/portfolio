@@ -17,7 +17,7 @@ p {
     line-height: 1.9;
     font-family: $lato;
     font-weight: 400;
-    margin: 0;
+    margin: 0 0 20px;
     font-size: 1.6rem;
 }
 
@@ -31,17 +31,21 @@ h1 {
     line-height: 1;
 }
 
-ul {
-    font-family: $lato; 
+ul, ol {
+    font-family: $lato;
+    margin: 0 0 20px;
 }
 
-li, ol {
-    font-size: 1rem;
-    line-height: 1;
+li {
+    font-size: 1.6rem;
+    line-height: 1.9;
+    list-style-type: disc;
+    list-style-position: inside;
+}
 
-    @media (min-width: 769px) {
-        font-size: 1.3rem;
-    }
+strong {
+    font-family: $bebas;
+    font-weight: 700;
 }
 
 strong {
@@ -67,7 +71,9 @@ section {
 }
 
 @import 'mini/logo';
+@import 'mini/arrows';
 
+@import 'partials/introduction';
 @import 'partials/intro';
 @import 'partials/header';
 @import 'partials/other';

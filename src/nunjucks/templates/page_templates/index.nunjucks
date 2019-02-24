@@ -1,41 +1,87 @@
 {% import "components/portfolioPiece.nunjucks" as portfolioPiece %}
 
-<div class="container customFitting-page">
+{% include "../components/intro.nunjucks" %}
+{% include "../components/headerNav.nunjucks" %}
 
-  {% include "../components/headerNav.nunjucks" %}
-
-  <section class="intro">
-    <div class="--wrap">
-    <h2>Hello!</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mauris ex, varius in ante non, aliquam gravida mi. Sed eget cursus augue. Morbi euismod porttitor mi nec pharetra. Quisque dui tellus, efficitur ac luctus nec, pulvinar eu enim. Quisque imperdiet tempor metus in lacinia. Vestibulum pulvinar eu lacus ac accumsan. Sed suscipit ante vel vehicula ornare.</p>
-      <p>Duis vehicula diam ut lorem faucibus viverra id vitae eros. Fusce sed interdum justo, a elementum massa. Integer erat ligula, tristique in molestie vel, dictum sed justo. Nunc a facilisis nisi, vitae eleifend nisl. Maecenas tincidunt rhoncus sapien eget dapibus. Vivamus fringilla libero fermentum sagittis accumsan. Duis nec enim lacus. Integer nec tempor dui, quis tristique nisl. Phasellus dictum nisi varius, gravida erat at, sollicitudin augue. Donec semper commodo odio pharetra accumsan. Sed eget lectus non diam maximus luctus. Vivamus et quam sit amet justo commodo fermentum. Nam congue mauris non finibus malesuada. Nunc molestie quam augue, eget aliquam nisi pulvinar ac. Aliquam erat volutpat. Cras volutpat interdum tempus.</p>
-    </div>
-  </section>
- 
-  <section class="portfolio --home">
-    <div class="--wrap --flex --between">
-      {{ portfolioPiece.piece(data, 0) }}
-      {{ portfolioPiece.piece(data, 1) }}
-    </div>
-  </section>
-
-  <section class="others">
-    <div class="other --wrap --flex --between">
-      <h3>Other Companies</h3>
+<section class="intro -home">
+  <div class="--wrap">
+    <div class="about -intro --flex --between">
       <div>
-        <img src="https://i.imgur.com/boB6HtY.png"/>
+        <h2>Thomas Balaban Web Developer</h2>
       </div>
       <div>
-        <img src="https://i.imgur.com/sStj1tX.png"/>
-      </div>
-      <div>
-        <img src="https://i.imgur.com/16C83gw.png"/>
-      </div>
-      <div>
-        <img src="https://i.imgur.com/z3WvAjP.png"/>
+        <h3>Welcome to my humble abode... or website... you choose.</h3>
+        <p>I am a Web Developer based in Pittsburgh with over 7 years of professional experience in a wide range of disciplines. You can always find me teaching people how to make their passion projects from start to finish using a lesson plan of my own design. Ask about it! I spend rest of my time self-learning - currently learning more in-depth software engineering using React.JS and React Native - or finding the next tasty drink at one of Pittsburgh's various unique bars or finding the next great gif to send to associates.</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  
-</div>
+<section class="intro story">
+  <div class="--wrap">
+    <div class="about -story --flex --between">
+      <div>
+        <img src="https://media.giphy.com/media/IoQETeY2ue5bi/giphy.gif" alt="tabs not spaces" />
+      </div>
+      <div>
+        <h3>The Beginning</h3>
+        <p>My journey into web development started at the young age of 9 when I was getting really involved in the gaming scene. Avid player of the oldies but goodies like Runescape and Yugioh I soon found myself involved in clans and sites thats often needed updates and/or improvements. I quickly became obsessed with Adobe Photoshop and moved from there to Freewebs and Geocities, have you heard of these? I started making sites or providing updates for my crew and various other small but unique organizations such as Alter Reality Games. By the time I reached High School I was very aware this is what I loved doing and could see myself commiting to the journey of a developer.</p>
+        <p>I attending Pittsburgh Technical College and studied under <a href="http://www.joshuasager.com/" target="_blank">Josh Sager</a> and <a href="https://www.linkedin.com/in/frank-schurter-38659b22/" target="_blank">Frank Schurter</a>. During my time there I became a teachers assistant due to my previous experience and teaching nature! I always enjoyed helping lead others to their path of success, and helping and tutoring was a great real world experience to help me learn how to become better at that along with learning tons myself! You would be surprised what kind of bugs can come out of the same small project from different points of view.</p>
+      </div>
+    </div>
+    <div class="about -now --flex --between">
+      <div>
+          <img src="https://media.giphy.com/media/DuNZsZd0H6l5S/giphy.gif" alt="tabs not spaces" />
+      </div>
+      <div>
+        <h3>The Now</h3>
+        <p>I am now a developer that has worked on many high profile websites such as <a href="https://www.fredrogers.org/" target="_blank">Fred Rogers</a>, <a href="http://www.mylan.com" target="_blank">Mylan</a>, and many others. Please check out my <a href="/portfolio">portfolio</a> for a sample! I currently work for Dicks Sporting Goods managing Field and Stream's homepage along with developing marketing pieces and in-office tools to improve workflow.</p>
+        <p>Currently in my free time I am focusing on improving my software engineering skills, focusing on concepts such as Functional Programming and Data Structures / Algorithms. Outside of code I am currently working on learning fencing and improv - I am terrible at both.</p>
+      </div>
+    </div>
+    <div class="about -contact --flex --between">
+      <div>
+        <img src="https://media.giphy.com/media/l0IylSajlbPRFxH8Y/giphy.gif" alt="tabs not spaces" />
+      </div>
+      <div>
+        <h3>The End</h3>
+        <p>A long journey for me thus far, and congratulations to you for making it this far! I am a passionate developer that has loved and got to enjoy the field since a young age. I am working on improving my skills all the time while maintaining sites for many high profile clients</p>
+        <p>At the end of this you may have a few questions:</p>
+        <ul>
+          <li>What can you do for me?</li>
+          <li>What Technologies do you work with?</li>
+          <li>How would I contact you</li>
+          <li>Why the gifs?</li>
+        </ul>
+        <p>To answer the first three - I can provide you a fully developed Full-Stack Web Application. My stack is <strong>HTML - CSS - JS - SQL - PHP - C# - WordPress - Drupal - React - Angular - React Native</strong>. With many years within the industry I can recommend what technology would be best for your project! I can cover both the design and development processes (admittingly preferring the development process) and provide advice on digital marketing!</p>
+        <p>Lets Chat! Feel free to reach out on <a href="https://www.linkedin.com/in/thomas-balaban-16155478/">Linkedin</a> or email me at <a href="emailto:balabaninteractive@gmail.com">balabaninteractive@gmail.com</a></p>
+        <p>I have no excuse for the gifs. Thanks for reading!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="portfolio --home">
+  <div class="--wrap --flex --between">
+    {{ portfolioPiece.piece(data, 0) }}
+    {{ portfolioPiece.piece(data, 1) }}
+  </div>
+</section>
+
+<section class="others">
+  <div class="other --wrap --flex --between">
+    <h3>Other Companies</h3>
+    <div>
+      <img src="https://i.imgur.com/boB6HtY.png"/>
+    </div>
+    <div>
+      <img src="https://i.imgur.com/sStj1tX.png"/>
+    </div>
+    <div>
+      <img src="https://i.imgur.com/16C83gw.png"/>
+    </div>
+    <div>
+      <img src="https://i.imgur.com/z3WvAjP.png"/>
+    </div>
+  </div>
+</section>
