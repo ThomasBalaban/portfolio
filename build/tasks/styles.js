@@ -58,6 +58,12 @@ module.exports = (requirements, config) => {
           .pipe(browserSync.stream());
   });
 
+  // Fonts
+  gulp.task('fonts', function() {
+    return gulp.src([`${config.src}/sass/fonts/**/*.**`])
+            .pipe(gulp.dest(`${config.tmp}/fonts/`));
+  });
+
 
   /*  ===========================================================================
 

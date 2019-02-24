@@ -8,7 +8,11 @@
             <div class="image">
                 <img src="{{data.portfolioPieces[which].backgroundImg }}" />
                 <div class="greybg"></div>
-                <h3>{{data.portfolioPieces[which].title }}</h3>
+                <h3>
+                    <a href="{{data.portfolioPieces[which].url}}" title="Visit {{data.portfolioPieces[which].title}}" target="_blank">
+                        {{data.portfolioPieces[which].title }} <i class="fas fa-chevron-circle-right"></i>
+                    </a>
+                </h3>
                 <div class="information-drop">
                     <h3 class="--flex --between"><a class="go-to" href="{{data.portfolioPieces[which].url}}" title="Visit {{data.portfolioPieces[which].title}}" target="_blank">{{data.portfolioPieces[which].title }}</a></h3>
                     <h4>Technologies</h4>
@@ -21,11 +25,6 @@
                     <p>{{data.portfolioPieces[which].story | safe}}</p>
                     <p><a href="{{data.portfolioPieces[which].url}}" title="Visit {{data.portfolioPieces[which].title}}" target="_blank">Go to {{data.portfolioPieces[which].title}} <i class="fas fa-chevron-circle-right"></i></a></p>
                 </div>
-            </div>
-            <div class="arrow --flex">
-                <a class="go-to" href="{{data.portfolioPieces[which].url}}" title="Visit {{data.portfolioPieces[which].title}}" target="_blank">
-                    <i class="fas fa-chevron-circle-right"></i>
-                </a>
             </div>
         </div>
     {% endif %}

@@ -1,7 +1,7 @@
 <footer>
     <div class="footer --wrap --flex --between --column ">
       <div class="arrow">
-        <i class="fas fa-angle-double-up"></i>
+        <a href="#"><i class="fas fa-angle-double-up"></i></a>
       </div>
 
       <div class="logo --flex --between">

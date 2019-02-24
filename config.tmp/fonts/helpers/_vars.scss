@@ -1,0 +1,29 @@
+// Media Queries
+$desktop-xlarge: "min-width: 2000px";
+$desktop-large: "min-width: 1280px";
+$desktop: "min-width: 992px";
+$mobile: "max-width: 991px";
+$tablet: "min-width: 700px";
+$hover: "not all and (hover: none)";
+$ie: "all and (-ms-high-contrast: none), (-ms-high-contrast: active)";
+// DSG Colors
+$dsgGreen: #006554;
+$dsgHolidayGreen: #1d4831;
+$dsgLightGray: #e6e6e6;
+$dsgUltraLightGray: #f8f8f8;
+$dsgDarkGray: #333333;
+$dsgBlue: #5C79AC;
+$dsgBurgundy: #8B000E;
+$dsgSummerBlue: #1b3a61;
+$dsgWhite: white;
+
+$fallback: 'Arial Thin', 'Helvetica', 'Arial', sans-serif;
+$serif-fallback: 'Courier', 'Courier New', serif;
+
+$lato: 'lato', $fallback;
+$bebas: 'bebasregular', $fallback;
+
+// Colors
+$white: #ffffff;
+$green: #0db991;
+$blue: #3498db;

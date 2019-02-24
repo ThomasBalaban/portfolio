@@ -1,0 +1,51 @@
+.extraInnings {
+    flex-direction: column;
+    padding: 20px 20px 0;
+    border-top: 1px solid #bababa;
+    margin-bottom: 40px;
+
+    h3 {
+        font-size: 2rem;
+        margin-bottom: 7px;
+    }
+
+    p {
+        margin-bottom: 0px;
+    }
+
+    a {
+        margin-bottom: 20px;
+    }
+
+    img {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .innings {
+        flex-direction: column;
+
+        @media (min-width: 769px) {
+            flex-direction: row;
+        }
+    }
+
+    .inningsBox {
+        text-align: center;
+        flex-direction: column;
+        margin-top: 20px;
+
+        @media (min-width: 769px) {
+            flex: 0 1 30%;
+        }        
+    }
+
+    @media (min-width: 769px) {
+        border-top: none;
+    }
+
+    @media (min-width: 1200px) {
+        max-width: 1200px;
+        margin: 15px auto 40px;
+    }
+}

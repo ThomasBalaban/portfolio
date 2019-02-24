@@ -1,5 +1,7 @@
-@import 'helpers/reset';
+//fonts
 @import './fonts/stylesheet.css';
+
+@import 'helpers/reset';
 @import 'helpers/vars';
 @import 'helpers/mixins';
 @import 'helpers/generics';
@@ -23,7 +25,6 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $bebas;
-    font-weight: 700;
 }
 
 h1 {

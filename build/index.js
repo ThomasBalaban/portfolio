@@ -58,7 +58,7 @@ module.exports = () => {
        ========================================================================= */
 
   gulp.task('dev', (cb) => {
-    runSequence('clean:tmp', 'clean:dist', 'renderHtmlDev', ['sass-to-css', 'js'], ['browserSync', 'watch'], cb);
+    runSequence('clean:tmp', 'clean:dist', 'renderHtmlDev', ['sass-to-css', 'js', 'fonts'], ['browserSync', 'watch'], cb);
   });
 
   /*  ===========================================================================

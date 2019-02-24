@@ -1,0 +1,23 @@
+.locations {
+    margin: 20px auto 40px;
+    max-width: 970px;
+    width: 70%;
+
+    h3, h4 {
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 4rem;
+    }
+
+    h4 {
+        font-size: 2.4rem;
+    }
+
+    .location{
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 191px;
+    }
+}

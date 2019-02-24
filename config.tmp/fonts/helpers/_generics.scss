@@ -1,0 +1,30 @@
+.--flex {
+    display: flex;
+
+    &.--column {
+        flex-direction: column;
+    }
+
+    &.--between {
+        justify-content: space-between;
+    }
+}
+
+.--wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.mobile {
+    @media (min-width: 769px) {
+        display: none;
+    }
+}
+
+.desktop {
+    display: none;
+
+    @media (min-width: 769px) {
+        display: block;
+    }
+}
