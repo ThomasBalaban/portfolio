@@ -1,14 +1,17 @@
-<header class="introduction --wrap --flex --between --column">
-
+<header class="introduction --wrap --flex --column">
     <div class="logo --flex --between">
         <h3>TAB</h3>
-        <a href="/" title="home"><img src="https://i.imgur.com/AiQy0Bw.png" /></a>
+        <a href="/" title="home"><img src="https://i.imgur.com/j4KEBFX.png" /></a>
     </div>
-
-    <h1><a href="/" title="home">Thomas A Balaban</a></h1>
-    <h2>Web Developer</h2>
-    <h4>Tabs Not Spaces</h4>
+    <div class="top-info">
+        <h1><a href="/" title="home">Thomas A Balaban</a></h1>
+        <h2>Web Developer</h2>
+        <h4>Tabs Not Spaces</h4>
+    </div>
     <div class="arrow">
-        <a href="#"><i class="fas fa-angle-double-down"></i></a>
+        <a href="#navigation">
+            <span>Go In</span>
+            <i class="fas fa-angle-double-down"></i>
+        </a>
     </div>
 </header>

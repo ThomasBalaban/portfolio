@@ -1,13 +1,41 @@
 .introduction {
     position: relative;
     align-items: center;
+    height: 100vh;
+    max-width: 800px;
 
     .logo {
-        max-width: 1000px;
+        max-width: none;
+        width: 100%;
+        top: 20%;
+        position: absolute;
+
+        a {
+            width: 500px;
+        }
+    }
+
+    .top-info {
+        top: 50%;
+        position: absolute;
+    }
+
+    h3 {
+        width: 345px;
+        font-size: 28rem;
+        color: #fff;
+        line-height: 0.8;
     }
 
     .arrow {
-        bottom: -15px;
-        top: auto;
+        top: 78%;
+
+        span {
+            display: block;
+            font-family: $bebas;
+            font-size: 4rem;
+            border-top: 2px solid $blue;
+            padding: 5px 0;
+        }
     }
 }

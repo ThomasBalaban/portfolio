@@ -31,3 +31,24 @@ for (var i = 0; i < moreInfo.length; i++) {
 
     // I know there is a easier way to do this but short amount of time + fire ball = bad code // TO-DO: CLEAN THIS
 }
+
+
+// make sticky nav
+var nav = document.getElementById('navigation');
+var navOS = nav.offsetTop;
+var homeTop = document.getElementsByClassName('intro')[0];
+var homeTopOs = homeTop.offsetTop;
+
+if(navOS <= 0) {
+    nav.classList.add('fixed-nav');
+} else {
+    nav.classList.remove('fixed-nav');
+}
+
+window.addEventListener('scroll', function(ev) {
+    if(window.pageYOffset >= navOS) {
+        nav.classList.add('fixed-nav');
+    } else {
+        nav.classList.remove('fixed-nav');
+    }
+});
