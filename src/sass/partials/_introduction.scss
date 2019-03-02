@@ -3,10 +3,12 @@
     align-items: center;
     height: 100vh;
     max-width: 800px;
+    padding: 0 5%;
 
     .logo {
         max-width: none;
-        width: 100%;
+        width: 90%;
+        padding: 0 5%;
         top: 20%;
         position: absolute;
 
@@ -16,15 +18,23 @@
     }
 
     .top-info {
-        top: 50%;
+        top: 35%;
         position: absolute;
+
+        @media (min-width: 769px) {
+            top: 50%;
+        }
     }
 
     h3 {
         width: 345px;
-        font-size: 28rem;
+        font-size: 11rem;
         color: #fff;
         line-height: 0.8;
+
+        @media (min-width: 769px) {
+            font-size: 28rem;
+        }
     }
 
     .arrow {

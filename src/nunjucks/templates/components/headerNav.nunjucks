@@ -1,5 +1,5 @@
 <nav id="navigation"> <!--class="fixed-nav" for top nav-->
-    <ul class="nav flex">
+    <ul class="nav --flex">
         <li class='home-btn'><a href="/"><img src="https://i.imgur.com/j4KEBFX.png" /> Home</a></li>
         <li><a href="/portfolio">Portfolio</a></li>
         <li><a href="/info">Info</a></li>

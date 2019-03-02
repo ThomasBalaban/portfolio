@@ -27,20 +27,32 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 6rem;
+    font-size: 5rem;
     line-height: 1;
+
+    @media (min-width: 769px) {
+        font-size: 6rem;
+    }
 }
 
 ul, ol {
     font-family: $lato;
-    margin: 0 0 20px;
+    margin: 0 0 20px 20px;
+
+    @media (min-width: 769px) {
+        margin: 0 0 20px;
+    }
 }
 
 li {
     font-size: 1.6rem;
     line-height: 1.9;
     list-style-type: disc;
-    list-style-position: inside;
+    list-style-position: outside;
+
+    @media (min-width: 769px) {
+        list-style-position: inside;
+    }
 }
 
 strong {
@@ -67,7 +79,11 @@ i {
 
 section {
     border-bottom: 2px solid $blue;
-    padding: 40px;
+    padding: 20px;
+
+    @media (min-width: 769px) {
+        padding: 40px;
+    }
 }
 
 @import 'mini/logo';

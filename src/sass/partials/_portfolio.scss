@@ -1,20 +1,26 @@
 .portfolio {
     > div {
         flex-wrap: wrap;
+        flex-direction: row;
     }
 
     &.--home {
         .port-piece {
-            margin-bottom: 0;
+            margin-bottom: 20px;
         }
     }
     
     .port-piece {
-        width: 45%;
-        margin-bottom: 40px;
+        width: 100%;
+        margin-bottom: 20px;
 
         &:nth-child(7), &:nth-child(8) {
             margin-bottom: 0;
+        }
+
+        @media (min-width: 769px) {
+            width: 45%;
+            margin-bottom: 40px;
         }
     }
 
@@ -46,12 +52,16 @@
             position: absolute;
             background: #ffffff;
             color: $green;
-            font-size: 3rem;
+            font-size: 2.4rem;
             padding: 10px 10px 7px;
             top: 50%;
             right: 50%;
             white-space: nowrap;
             transform: translate(50%,-50%);
+
+            @media (min-width: 769px) {
+                font-size: 3rem;
+            }
         }
     }
 
@@ -97,12 +107,20 @@
             margin-bottom: 10px;
             border-bottom: 2px solid $blue;
             padding-bottom: 5px;
-            font-size: 4rem;
+            font-size: 3rem;
+
+            @media (min-width: 769px) {
+                font-size: 4rem;
+            }
         }
 
         h4 {
-            font-size: 3rem;
+            font-size: 2.2rem;
             margin-bottom: 5px;
+
+            @media (min-width: 769px) {
+                font-size: 3rem;
+            }
         }
 
         ul {
@@ -113,14 +131,19 @@
 
             li {
                 list-style-type: disc;
-                font-size: 1.6rem;
+                font-size: 1.4rem;
                 padding: 5px 0;
+                line-height: 1;
+
+                @media (min-width: 769px) {
+                    font-size: 1.6rem;
+                }  
             }
         }
 
         p {
             line-height: 1.4;
-            font-size: 1.6rem;
+            font-size: 1.4rem;
             margin-bottom: 10px;
 
             a {
@@ -129,10 +152,16 @@
                 color: $white;
                 padding: 10px;
                 display: block;
+                text-transform: uppercase;
+                font-size: 1.1rem;
 
                 i {
                     margin-left: 5px;
                 }
+            }
+
+            @media (min-width: 769px) {
+                font-size: 1.6rem;
             }
         }
     }
