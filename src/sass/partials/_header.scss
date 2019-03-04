@@ -32,7 +32,7 @@ header {
     font-family: $bebas;
     border-top: 2px solid $blue;
     border-bottom: 2px solid $blue;
-    padding: 10px 0;
+    padding: 10px 20px;
     justify-content: space-between;
 
     li {
@@ -44,8 +44,12 @@ header {
         }
 
         @media (min-width: 769px) {
-            margin: 0 40px;
+            margin: 0 20px;
         }
+    }
+
+    @media (min-width: 769px) {
+        justify-content: center;
     }
 }
 

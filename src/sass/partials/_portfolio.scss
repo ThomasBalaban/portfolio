@@ -60,7 +60,7 @@
             transform: translate(50%,-50%);
 
             @media (min-width: 769px) {
-                font-size: 3rem;
+                font-size: 2rem;
             }
         }
     }
@@ -110,7 +110,7 @@
             font-size: 3rem;
 
             @media (min-width: 769px) {
-                font-size: 4rem;
+                font-size: 2.6rem;
             }
         }
 
@@ -157,6 +157,14 @@
 
                 i {
                     margin-left: 5px;
+                }
+
+                @media (min-width: 769px) {
+                    font-size: 1rem;
+                }
+
+                @media (min-width: 1035px) {
+                    font-size: 1.6rem;
                 }
             }
 
