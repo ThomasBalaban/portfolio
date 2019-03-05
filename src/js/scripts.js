@@ -1,7 +1,6 @@
 var moreInfo = document.getElementsByClassName('open-button');
 var closeBtn = document.getElementsByClassName('close-button');
 
-console.log(moreInfo);
 
 for (var i = 0; i < moreInfo.length; i++) {
     moreInfo[i].addEventListener('click', function(){
@@ -53,12 +52,28 @@ window.addEventListener('scroll', function(ev) {
     }
 });
 
-document.getElementById('topDown').addEventListener('click', function(){
+var topDown = document.getElementById('topDown');
+if( topDown != null){
+    topDown.addEventListener('click', function(){
 
-    var y = homeTop.getBoundingClientRect().top + window.scrollY - 72;
-    window.scroll({
-        top: y,
-        behavior: 'smooth'
+        var y = homeTop.getBoundingClientRect().top + window.scrollY - 75;
+        window.scroll({
+            top: y,
+            behavior: 'smooth'
+        });
     });
-    console.log(homeTop.getBoundingClientRect().top);
-});
+}
+
+var url = window.location.href.toString().split(window.location.host)[1];
+
+if (url == "/"){
+    document.querySelector('.home-btn img').style.display = "inline-block";
+}
+
+if (url == "/portfolio/"){
+    document.querySelector('.port-btn img').style.display = "inline-block";
+}
+
+if (url == "/info/"){
+    document.querySelector('.info-btn img').style.display = "inline-block";
+}

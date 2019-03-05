@@ -10,11 +10,13 @@
     }
 
     .logo {
-        width: 60%;
+        width: 40%;
         margin-top: 80px;
+        height: auto;
 
         h3 {
             font-size: 7rem;
+            height: auto;
         }
 
         @media(min-width: 450px){

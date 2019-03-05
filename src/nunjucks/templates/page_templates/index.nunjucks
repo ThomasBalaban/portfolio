@@ -7,11 +7,11 @@
   <div class="--wrap">
     <div class="about -intro --flex --between">
       <div>
-        <h2>Thomas Balaban Web Developer</h2>
+        <h2><span>Thomas Balaban</span> <br />Web Developer</h2>
       </div>
       <div>
-        <h3>Welcome to my humble abode... or website... you choose.</h3>
-        <p>I am a Web Developer based in Pittsburgh with over 7 years of professional experience in a wide range of disciplines. You can always find me teaching people how to make their passion projects from start to finish using a lesson plan of my own design. Ask about it! I spend rest of my time self-learning - currently learning more in-depth software engineering using React.JS and React Native - or finding the next tasty drink at one of Pittsburgh's various unique bars or finding the next great gif to send to associates.</p>
+        <h3>Welcome to my humble abode... or website... your choice.</h3>
+        <p>I am a Pittsburgh based Web Developer with over 7 years of professional experience in a wide range of disciplines. You can always find me teaching people how to make their passion projects from start to finish using a lesson plan of my own design. Ask about it! I spend the rest of my time self-learning - currently learning more in-depth software engineering using React.JS and React Native. Find me at one of Pittsburgh's unique bars or finding the perfect gif to send to coworkers!</p>
       </div>
     </div>
   </div>
