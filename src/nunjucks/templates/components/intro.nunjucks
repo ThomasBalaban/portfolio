@@ -8,7 +8,7 @@
         <h2>Web Developer</h2>
         <h4>Tabs Not Spaces</h4>
         <div class="arrow">
-            <a href="#navigation">
+            <a href="javascript:void(0)" id="topDown">
                 <span>Go In</span>
                 <i class="fas fa-angle-double-down"></i>
             </a>

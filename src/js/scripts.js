@@ -52,3 +52,13 @@ window.addEventListener('scroll', function(ev) {
         nav.classList.remove('fixed-nav');
     }
 });
+
+document.getElementById('topDown').addEventListener('click', function(){
+
+    var y = homeTop.getBoundingClientRect().top + window.scrollY - 72;
+    window.scroll({
+        top: y,
+        behavior: 'smooth'
+    });
+    console.log(homeTop.getBoundingClientRect().top);
+});
