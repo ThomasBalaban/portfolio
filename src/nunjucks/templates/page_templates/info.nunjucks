@@ -6,11 +6,49 @@
 
   {% include "../components/headerNav.nunjucks" %}
 
-  <section class="intro">
+  <section class="intro story">
     <div class="--wrap">
-      <h2>info </h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mauris ex, varius in ante non, aliquam gravida mi. Sed eget cursus augue. Morbi euismod porttitor mi nec pharetra. Quisque dui tellus, efficitur ac luctus nec, pulvinar eu enim. Quisque imperdiet tempor metus in lacinia. Vestibulum pulvinar eu lacus ac accumsan. Sed suscipit ante vel vehicula ornare.</p>
-      <p>Duis vehicula diam ut lorem faucibus viverra id vitae eros. Fusce sed interdum justo, a elementum massa. Integer erat ligula, tristique in molestie vel, dictum sed justo. Nunc a facilisis nisi, vitae eleifend nisl. Maecenas tincidunt rhoncus sapien eget dapibus. Vivamus fringilla libero fermentum sagittis accumsan. Duis nec enim lacus. Integer nec tempor dui, quis tristique nisl. Phasellus dictum nisi varius, gravida erat at, sollicitudin augue. Donec semper commodo odio pharetra accumsan. Sed eget lectus non diam maximus luctus. Vivamus et quam sit amet justo commodo fermentum. Nam congue mauris non finibus malesuada. Nunc molestie quam augue, eget aliquam nisi pulvinar ac. Aliquam erat volutpat. Cras volutpat interdum tempus.</p>
+      <div class="about -intro --flex --between">
+        <div>
+          <h2>Philosophy</h2>
+        </div>
+        <div>
+          <h3>To Be Or Not To Be</h3>
+          <p>currently I am at a great stage of growth. Being mostly self taught in a large array of things, along with teaching others, I have been giving a great deal of effort in personal growth. React is my weapon of choice to learn software engineering. When I am self-teaching I am focusing on just JavaScript a large amount of the time because I believe focusing on one thing then using your experience there will branch out and help you learn faster and better.</p>
+        </div>
+      </div>
+      <div class="about -intro --flex --between">
+        <div>
+          <h2>Services</h2>
+        </div>
+        <div>
+          <h3>Technology</h3>
+          <p>As a developer I am most acustomed to Web Based technology. Some of these include</p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>React Native</li>
+            <li>Angular</li>
+            <li>PHP</li>
+            <li>C#</li>
+            <li>WordPress</li>
+          </ul>
+          <p>These are listed in order of personal preferance, however I am well versed in all of them. I also know backend and data based technologies in the purpose of building complicated web apps</p>
+          <p>My philosophy is use the right technology for the right job, and that will always come first.</p>
+          <p>To go along side of development I also know <strong>UI, UX,</strong> and <strong>design principles</strong>.</p>
+        </div>
+      </div>
+      <div class="about -intro --flex --between">
+        <div>
+          <h2>Services</h2>
+        </div>
+        <div>
+          <h3>Contact Me</h3>
+          <p>Lets Chat! Feel free to reach out on <a href="https://www.linkedin.com/in/thomas-balaban-16155478/">Linkedin</a> or email me at <a href="mailto:balabaninteractive@gmail.com">balabaninteractive@gmail.com</a></p>
+        </div>
+      </div>
     </div>
   </section>
  

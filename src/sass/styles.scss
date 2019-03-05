@@ -2,7 +2,7 @@
 @import './fonts/stylesheet.css';
 @import 'helpers/vars';
 @import 'helpers/mixins';
-@import 'helpers/generics';
+@import 'helpers/generics'; 
 
 body, html {
     font-size: 10px;
@@ -29,10 +29,6 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 5rem;
     line-height: 1;
-
-    @media (min-width: 769px) {
-        font-size: 6rem;
-    }
 }
 
 ul, ol {
@@ -94,8 +90,4 @@ section {
 @import 'partials/header';
 @import 'partials/other';
 @import 'partials/footer';
-@import 'partials/seriesBlocks';
-@import 'partials/extraInnings';
-@import 'partials/locations';
 @import 'partials/portfolio';
-@import 'partials/threeRowWLink';

@@ -6,39 +6,33 @@
     padding: 0 5%;
 
     .logo {
-        max-width: none;
+        max-width: 375px;
         width: 90%;
-        padding: 0 5%;
-        top: 20%;
-        position: absolute;
+        padding: 0 20px;
 
         a {
-            width: 500px;
+            width: 200px;
         }
     }
 
     .top-info {
-        top: 35%;
         position: absolute;
-
-        @media (min-width: 769px) {
-            top: 50%;
-        }
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     h3 {
-        width: 345px;
         font-size: 11rem;
         color: #fff;
         line-height: 0.8;
-
-        @media (min-width: 769px) {
-            font-size: 28rem;
-        }
+        margin: 0;
     }
 
     .arrow {
-        top: 78%;
+        position: relative;
+        display: inline-block;
+        margin-top: 20px; 
 
         span {
             display: block;

@@ -1,4 +1,6 @@
 <!-- index.nunjucks-->
+{% set title = "Portfolio" %}
+
 {% extends "homepageTemplate.nunjucks" %}
 
 {% import 'globals.nunjucks' as globals %}
